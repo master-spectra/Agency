@@ -1,1 +1,249 @@
 // out: ../css/style.css
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Tahoma;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+span,
+div,
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.btn {
+    background: #19202a;
+    width: 300px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    margin: 5px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page {
+    background: rgba(29, 39, 51, .9);
+    display: flex;
+    justify-content: space-between;
+
+    .left-bar {
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        padding: 0px 365px 0px 80px;
+        background-image: url(../img/build.jpg);
+        .image;
+
+        .title {
+            width: 200px;
+            padding-top: 20px;
+
+            .first-title {
+                font-size: 15px;
+                color: #92a1b6;
+            }
+
+            .second-title {
+                font-size: 25px;
+                padding-top: 10px;
+                color: #fff;
+            }
+        }
+
+        .second-title {
+            padding-top: 150px;
+
+            .first {
+                padding-bottom: 20px;
+                font-size: 30px;
+                color: #fff;
+                transition: all 0.2s ease;
+
+                &:hover {
+                    color: rgb(255, 255, 0);
+                    cursor: pointer;
+                }
+            }
+
+            .second {
+                padding-bottom: 20px;
+                font-size: 30px;
+                color: #fff;
+                transition: all 0.2s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    color: rgb(1, 131, 1);
+                }
+            }
+
+            .third {
+                padding-bottom: 20px;
+                font-size: 30px;
+                color: #fff;
+                transition: all 0.2s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    color: rgb(0, 46, 250);
+                }
+            }
+        }
+
+        .social-network {
+            padding: 200px 0px 21px 0px;
+
+            .vk {
+                color: #fff;
+                font-size: 20px;
+                text-decoration: none;
+                padding-right: 20px;
+
+                &:hover {
+                    color: rgb(26, 26, 153);
+                }
+            }
+
+            .dribble {
+                color: #fff;
+                font-size: 20px;
+                text-decoration: none;
+                padding-left: 20px;
+
+                &:hover {
+                    color: rgb(255, 69, 0);
+                }
+            }
+        }
+
+    }
+
+    .right-bar {
+        display: flex;
+        flex-wrap: wrap;
+        width: 665px;
+
+        .about {
+            .megaphone {
+                padding-bottom: 65px;
+                color: rgb(0, 108, 248);
+                font-size: 40px;
+            }
+
+            .text-about {
+                padding-top: 65px;
+                color: #fff;
+                font-size: 25px;
+                text-transform: uppercase;
+            }
+
+            .btn
+        }
+
+        .list-client {
+            .case {
+                color: rgb(0, 108, 248);
+                font-size: 40px;
+                padding-bottom: 65px;
+            }
+
+            .text-client {
+                color: #fff;
+                font-size: 25px;
+                padding-top: 65px;
+                text-transform: uppercase;
+            }
+
+            .btn
+        }
+
+        .portfolio {
+            .tv {
+                padding-bottom: 65px;
+                color: rgb(0, 108, 248);
+                font-size: 25px;
+            }
+
+            .text-portfolio {
+                color: #fff;
+                padding-top: 65px;
+                font-size: 25px;
+                text-transform: uppercase;
+            }
+
+            .btn
+        }
+
+        .us-project {
+            .camera {
+                color: rgb(0, 108, 248);
+                font-size: 40px;
+            }
+
+            .text-project {
+                color: #fff;
+                font-size: 25px;
+                text-transform: uppercase;
+            }
+
+            .btn
+        }
+
+        .question-answer {
+            .glasses {
+                padding-bottom: 65px;
+                color: rgb(0, 108, 248);
+                font-size: 40px;
+            }
+
+            .text-answer {
+                padding-top: 65px;
+                color: #fff;
+                font-size: 25px;
+                text-transform: uppercase;
+            }
+
+            .btn
+        }
+
+        .contacts {
+            .pin {
+                color: rgb(0, 108, 248);
+                font-size: 40px;
+            }
+
+            .text-contacts {
+                color: #fff;
+                font-size: 25px;
+                text-transform: uppercase;
+            }
+
+            .btn
+        }
+    }
+}
