@@ -75,39 +75,39 @@ p {
   font-size: 25px;
   padding-top: 10px;
   color: #fff;
+  width: 150px;
 }
 .page .left-bar .conteiner .second-title {
-  padding-top: 150px;
+  padding-top: 130px;
 }
 .page .left-bar .conteiner .second-title .first {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   font-size: 30px;
   color: #fff;
   transition: all 0.2s ease;
 }
 .page .left-bar .conteiner .second-title .first:hover {
-  color: #ffff00;
+  color: #018301;
   cursor: pointer;
 }
 .page .left-bar .conteiner .second-title .second {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   font-size: 30px;
   color: #fff;
   transition: all 0.2s ease;
 }
 .page .left-bar .conteiner .second-title .second:hover {
   cursor: pointer;
-  color: #018301;
+  color: #002efa;
 }
 .page .left-bar .conteiner .second-title .third {
-  padding-bottom: 20px;
   font-size: 30px;
   color: #fff;
   transition: all 0.2s ease;
 }
 .page .left-bar .conteiner .second-title .third:hover {
   cursor: pointer;
-  color: #002efa;
+  color: #ffff00;
 }
 .page .left-bar .conteiner .social-network {
   padding: 200px 0px 21px 0px;
