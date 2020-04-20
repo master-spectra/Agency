@@ -41,89 +41,106 @@ p {
   background-size: cover;
 }
 .page {
-  background: rgba(29, 39, 51, 0.9);
   display: flex;
   justify-content: space-between;
 }
 .page .left-bar {
   position: relative;
-  padding: 0px 365px 0px 80px;
+  padding: 0px 605px 0px 80px;
   background-image: url(../img/build.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.page .left-bar .title {
+.page .left-bar .grey-bg {
+  background: rgba(29, 39, 51, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.page .left-bar .conteiner {
+  position: absolute;
+}
+.page .left-bar .conteiner .title {
   width: 200px;
   padding-top: 20px;
 }
-.page .left-bar .title .first-title {
+.page .left-bar .conteiner .title .first-title {
   font-size: 15px;
   color: #92a1b6;
 }
-.page .left-bar .title .second-title {
+.page .left-bar .conteiner .title .second {
   font-size: 25px;
   padding-top: 10px;
   color: #fff;
 }
-.page .left-bar .second-title {
+.page .left-bar .conteiner .second-title {
   padding-top: 150px;
 }
-.page .left-bar .second-title .first {
+.page .left-bar .conteiner .second-title .first {
   padding-bottom: 20px;
   font-size: 30px;
   color: #fff;
   transition: all 0.2s ease;
 }
-.page .left-bar .second-title .first:hover {
+.page .left-bar .conteiner .second-title .first:hover {
   color: #ffff00;
   cursor: pointer;
 }
-.page .left-bar .second-title .second {
+.page .left-bar .conteiner .second-title .second {
   padding-bottom: 20px;
   font-size: 30px;
   color: #fff;
   transition: all 0.2s ease;
 }
-.page .left-bar .second-title .second:hover {
+.page .left-bar .conteiner .second-title .second:hover {
   cursor: pointer;
   color: #018301;
 }
-.page .left-bar .second-title .third {
+.page .left-bar .conteiner .second-title .third {
   padding-bottom: 20px;
   font-size: 30px;
   color: #fff;
   transition: all 0.2s ease;
 }
-.page .left-bar .second-title .third:hover {
+.page .left-bar .conteiner .second-title .third:hover {
   cursor: pointer;
   color: #002efa;
 }
-.page .left-bar .social-network {
+.page .left-bar .conteiner .social-network {
   padding: 200px 0px 21px 0px;
+  display: flex;
 }
-.page .left-bar .social-network .vk {
+.page .left-bar .conteiner .social-network .vk {
   color: #fff;
   font-size: 20px;
   text-decoration: none;
   padding-right: 20px;
+  display: flex;
 }
-.page .left-bar .social-network .vk:hover {
+.page .left-bar .conteiner .social-network .vk:hover {
   color: #1a1a99;
 }
-.page .left-bar .social-network .dribble {
+.page .left-bar .conteiner .social-network .vk p {
+  padding-left: 20px;
+}
+.page .left-bar .conteiner .social-network .dribble {
   color: #fff;
   font-size: 20px;
   text-decoration: none;
   padding-left: 20px;
+  display: flex;
 }
-.page .left-bar .social-network .dribble:hover {
+.page .left-bar .conteiner .social-network .dribble:hover {
   color: #ff4500;
 }
 .page .right-bar {
   display: flex;
   flex-wrap: wrap;
   width: 665px;
+  background: #1d2733;
 }
 .page .right-bar .about {
   background: #19202a;
@@ -138,8 +155,8 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .about .megaphone {
-  padding-bottom: 65px;
   color: #006cf8;
+  padding: 20px 20px 65px 20px;
   font-size: 40px;
 }
 .page .right-bar .about .text-about {
@@ -163,7 +180,7 @@ p {
 .page .right-bar .list-client .case {
   color: #006cf8;
   font-size: 40px;
-  padding-bottom: 65px;
+  padding: 20px 20px 65px 20px;
 }
 .page .right-bar .list-client .text-client {
   color: #fff;
@@ -184,7 +201,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .portfolio .tv {
-  padding-bottom: 65px;
+  padding: 20px 20px 65px 20px;
   color: #006cf8;
   font-size: 25px;
 }
@@ -209,6 +226,7 @@ p {
 .page .right-bar .us-project .camera {
   color: #006cf8;
   font-size: 40px;
+  padding: 20px 20px 65px 20px;
 }
 .page .right-bar .us-project .text-project {
   color: #fff;
@@ -228,7 +246,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .question-answer .glasses {
-  padding-bottom: 65px;
+  padding: 20px 20px 65px 20px;
   color: #006cf8;
   font-size: 40px;
 }
@@ -253,6 +271,7 @@ p {
 .page .right-bar .contacts .pin {
   color: #006cf8;
   font-size: 40px;
+  padding: 20px 20px 65px 20px;
 }
 .page .right-bar .contacts .text-contacts {
   color: #fff;
