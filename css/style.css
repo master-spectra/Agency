@@ -25,7 +25,7 @@ p {
 }
 .btn {
   background: #19202a;
-  width: 300px;
+  width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
@@ -42,7 +42,6 @@ p {
 }
 .page {
   display: flex;
-  justify-content: space-between;
 }
 .page .left-bar {
   position: relative;
@@ -139,12 +138,13 @@ p {
 .page .right-bar {
   display: flex;
   flex-wrap: wrap;
-  width: 665px;
+  width: 50%;
   background: #1d2733;
 }
 .page .right-bar .about {
+  text-decoration: none;
   background: #19202a;
-  width: 300px;
+  width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
@@ -154,20 +154,22 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.page .right-bar .about .megaphone {
+.page .right-bar .about .container-about .megaphone {
   color: #006cf8;
   padding: 20px 20px 65px 20px;
   font-size: 40px;
 }
-.page .right-bar .about .text-about {
+.page .right-bar .about .container-about .text-about {
   padding-top: 65px;
   color: #fff;
+  padding-left: 20px;
   font-size: 25px;
   text-transform: uppercase;
 }
 .page .right-bar .list-client {
+  text-decoration: none;
   background: #19202a;
-  width: 300px;
+  width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
@@ -177,20 +179,22 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.page .right-bar .list-client .case {
+.page .right-bar .list-client .container-list-client .case {
   color: #006cf8;
   font-size: 40px;
   padding: 20px 20px 65px 20px;
 }
-.page .right-bar .list-client .text-client {
+.page .right-bar .list-client .container-list-client .text-client {
   color: #fff;
   font-size: 25px;
+  padding-left: 20px;
   padding-top: 65px;
   text-transform: uppercase;
 }
 .page .right-bar .portfolio {
+  text-decoration: none;
   background: #19202a;
-  width: 300px;
+  width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
@@ -200,20 +204,22 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.page .right-bar .portfolio .tv {
+.page .right-bar .portfolio .container-portfoliot .tv {
   padding: 20px 20px 65px 20px;
   color: #006cf8;
-  font-size: 25px;
+  font-size: 40px;
 }
-.page .right-bar .portfolio .text-portfolio {
+.page .right-bar .portfolio .container-portfoliot .text-portfolio {
   color: #fff;
+  padding-left: 20px;
   padding-top: 65px;
   font-size: 25px;
   text-transform: uppercase;
 }
-.page .right-bar .us-project {
+.page .right-bar .project {
+  text-decoration: none;
   background: #19202a;
-  width: 300px;
+  width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
@@ -223,19 +229,22 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.page .right-bar .us-project .camera {
+.page .right-bar .project .container-project .camera {
   color: #006cf8;
   font-size: 40px;
   padding: 20px 20px 65px 20px;
 }
-.page .right-bar .us-project .text-project {
+.page .right-bar .project .container-project .text-project {
   color: #fff;
   font-size: 25px;
+  padding-top: 65px;
   text-transform: uppercase;
+  padding-left: 20px;
 }
 .page .right-bar .question-answer {
+  text-decoration: none;
   background: #19202a;
-  width: 300px;
+  width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
@@ -245,20 +254,22 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.page .right-bar .question-answer .glasses {
+.page .right-bar .question-answer .container-question-answer .glasses {
   padding: 20px 20px 65px 20px;
   color: #006cf8;
   font-size: 40px;
 }
-.page .right-bar .question-answer .text-answer {
+.page .right-bar .question-answer .container-question-answer .text-answer {
   padding-top: 65px;
   color: #fff;
   font-size: 25px;
+  padding-left: 20px;
   text-transform: uppercase;
 }
 .page .right-bar .contacts {
+  text-decoration: none;
   background: #19202a;
-  width: 300px;
+  width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
@@ -268,13 +279,15 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.page .right-bar .contacts .pin {
+.page .right-bar .contacts .container-contacts .pin {
   color: #006cf8;
   font-size: 40px;
   padding: 20px 20px 65px 20px;
 }
-.page .right-bar .contacts .text-contacts {
+.page .right-bar .contacts .container-contacts .text-contacts {
   color: #fff;
+  padding-top: 65px;
   font-size: 25px;
+  padding-left: 20px;
   text-transform: uppercase;
 }

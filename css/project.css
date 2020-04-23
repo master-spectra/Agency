@@ -1,0 +1,432 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Tahoma;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+span,
+div,
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #000;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+}
+.page {
+  background: #1d2733;
+}
+.page .header {
+  padding: 50px;
+}
+.page .header .logo {
+  display: inline-block;
+  color: #fff;
+  float: left;
+  width: 130px;
+  font-size: 20px;
+}
+.page .header .menu {
+  display: inline-block;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+.page .header .menu ul li {
+  display: inline-block;
+  padding-right: 25px;
+}
+.page .header .menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.page .header .menu ul li a:hover {
+  color: #32b4ff;
+}
+.page .header .social-network {
+  display: inline-block;
+  float: right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.page .header .social-network .vk {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: 20px;
+  display: inline-block;
+}
+.page .header .social-network .dribble {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+.page .visualizer .title-visualizer {
+  padding: 50px 0px 20px 0px;
+  text-align: center;
+}
+.page .visualizer .title-visualizer .title .blue-text {
+  color: #32b4ff;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-right: 10px;
+}
+.page .visualizer .title-visualizer .title .text {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.page .visualizer .title-visualizer .text-title-visualizer {
+  padding-left: 250px;
+  font-size: 18px;
+  opacity: 0.4;
+  color: #fff;
+}
+.page .visualizer .three-d-visualizer {
+  display: flex;
+}
+.page .visualizer .three-d-visualizer img {
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  transition: all 0.3s ease;
+  filter: brightness(80%);
+  border-radius: 5px;
+}
+.page .visualizer .three-d-visualizer img:hover {
+  filter: brightness(100%);
+}
+.page .visualizer .three-d-visualizer .desciption {
+  width: 30%;
+  align-self: center;
+  padding-left: 200px;
+}
+.page .visualizer .three-d-visualizer .desciption .title-3d-visualizer {
+  padding-bottom: 20px;
+}
+.page .visualizer .three-d-visualizer .desciption .title-3d-visualizer .green-title {
+  color: #1c941c;
+  font-size: 30px;
+}
+.page .visualizer .three-d-visualizer .desciption .title-3d-visualizer .title {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.page .visualizer .three-d-visualizer .desciption .text-3d-visualizer {
+  color: #9aaaba;
+  line-height: 170%;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.page .visualizer .three-d-visualizer .desciption .btn-3d-visualizer {
+  background: #2ecc71;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  padding: 15px 60px;
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.page .visualizer .three-d-visualizer .desciption .btn-3d-visualizer:hover {
+  background: #207744;
+}
+.page .visualizer .three-d-visualizer .desciption .btn-3d-visualizer:active {
+  transform: scale(0.95);
+}
+.page .web-development-courses {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.page .web-development-courses .description-web-development-courses {
+  align-self: center;
+  width: 30%;
+  padding-left: 200px;
+}
+.page .web-development-courses .description-web-development-courses .title-description-web-development-courses .title-web-development-courses {
+  font-size: 30px;
+  color: #fff;
+}
+.page .web-development-courses .description-web-development-courses .title-description-web-development-courses .title-part-two-web-development-courses {
+  color: #01b1f8;
+  font-size: 30px;
+}
+.page .web-development-courses .description-web-development-courses .text-web-development-courses {
+  line-height: 170%;
+  font-size: 16px;
+  color: #9aaaba;
+  padding: 20px 0px;
+}
+.page .web-development-courses .description-web-development-courses .btn-web-development-courses {
+  background: #01b1f8;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  padding: 15px 40px;
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.page .web-development-courses .description-web-development-courses .btn-web-development-courses:hover {
+  background: #0d749c;
+}
+.page .web-development-courses .description-web-development-courses .btn-web-development-courses:active {
+  transform: scale(0.95);
+}
+.page .web-development-courses .img-web-development-courses {
+  width: 50%;
+  transition: all 0.3s ease;
+  filter: brightness(80%);
+}
+.page .web-development-courses .img-web-development-courses:hover {
+  filter: brightness(100%);
+}
+.page .ui-library {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+.page .ui-library .img-library {
+  width: 50%;
+  transition: all 0.3s ease;
+  filter: brightness(80%);
+}
+.page .ui-library .img-library:hover {
+  filter: brightness(100%);
+}
+.page .ui-library .describtion-ui-library {
+  width: 30%;
+  padding-right: 150px;
+  padding-top: 20px;
+}
+.page .ui-library .describtion-ui-library .blue-title-ui-library {
+  color: #01b1f8;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.page .ui-library .describtion-ui-library .title-ui-library {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.page .ui-library .describtion-ui-library .text-ui-library {
+  line-height: 170%;
+  font-size: 16px;
+  color: #9aaaba;
+  padding: 20px 0px;
+}
+.page .ui-library .describtion-ui-library .btn-describtion-ui-library {
+  background: #01b1f8;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  padding: 15px 40px;
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.page .ui-library .describtion-ui-library .btn-describtion-ui-library:hover {
+  background: #0d749c;
+}
+.page .ui-library .describtion-ui-library .btn-describtion-ui-library:active {
+  transform: scale(0.95);
+}
+.page .our-work {
+  background-image: url(../img/project-work-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 200px 0;
+  background-repeat: no-repeat;
+}
+.page .our-work .bg-dark {
+  background: rgba(29, 39, 51, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.page .our-work .content {
+  position: absolute;
+  padding-left: 300px;
+}
+.page .our-work .content .title-our-work {
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.page .our-work .content .container-btn-our-work {
+  padding-left: 275px;
+  padding-top: 20px;
+}
+.page .our-work .content .container-btn-our-work .btn-our-work {
+  display: block;
+  background: #01b1f8;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  padding: 15px 40px;
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.page .our-work .content .container-btn-our-work .btn-our-work:hover {
+  background: #0d749c;
+}
+.page .our-work .content .container-btn-our-work .btn-our-work:active {
+  transform: scale(0.95);
+}
+.page .footer {
+  display: flex;
+  padding: 50px 20px 0px 20px;
+  flex-wrap: wrap;
+}
+.page .footer .main-info {
+  width: 23%;
+}
+.page .footer .main-info .title-main-info {
+  color: #fff;
+  padding-bottom: 20px;
+  width: 130px;
+  font-size: 20px;
+}
+.page .footer .main-info .text-main-info .first-text {
+  line-height: 150%;
+  font-size: 16px;
+  padding-bottom: 10px;
+  color: #67768d;
+}
+.page .footer .main-info .text-main-info .second-text {
+  line-height: 150%;
+  color: #67768d;
+  border-left: 3px solid #32b4ff;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.page .footer .page {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page .footer .page .title-page {
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 30px;
+  color: #fff;
+}
+.page .footer .page .menu {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.page .footer .page .menu li {
+  list-style: outside;
+  color: #838e9e;
+  padding-bottom: 10px;
+}
+.page .footer .page .menu li a {
+  text-decoration: none;
+  color: #67768d;
+  transition: all 0.3s ease;
+}
+.page .footer .page .menu li a:hover {
+  color: #32b4ff;
+}
+.page .footer .info {
+  width: 23%;
+}
+.page .footer .info .title-info {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.page .footer .info ul {
+  padding-left: 20px;
+}
+.page .footer .info ul li {
+  list-style: outside;
+  padding-bottom: 20px;
+  color: #838e9e;
+}
+.page .footer .info ul li a {
+  text-decoration: none;
+  color: #67768d;
+  transition: all 0.3s ease;
+}
+.page .footer .info ul li a:hover {
+  color: #32b4ff;
+}
+.page .footer .word-form {
+  width: 23%;
+}
+.page .footer .word-form .title-word-form {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.page .footer .word-form .btn-form {
+  background-color: #01b1f8;
+  outline: none;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.page .footer .word-form .btn-form:hover {
+  background-color: #0375a1;
+}
+.page .footer .word-form .btn-form:active {
+  transform: scale(0.95);
+}
+.page .footer .word-form .text-word-form {
+  padding-top: 20px;
+  color: #67768d;
+  font-size: 16px;
+  line-height: 150%;
+}
+.page .footer .down-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.page .footer .down-footer .social-network-footer {
+  display: flex;
+}
+.page .footer .down-footer .social-network-footer .vk-footer {
+  display: flex;
+  text-decoration: none;
+  padding-right: 20px;
+  color: #67768d;
+}
+.page .footer .down-footer .social-network-footer .vk-footer .vk-name-footer {
+  color: #67768d;
+  padding-left: 20px;
+}
+.page .footer .down-footer .social-network-footer .dribble-footer {
+  display: flex;
+  text-decoration: none;
+  color: #67768d;
+}
+.page .footer .down-footer .social-network-footer .dribble-footer .dribble-name-footer {
+  color: #67768d;
+  padding-left: 20px;
+}
