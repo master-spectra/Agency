@@ -72,31 +72,31 @@ p {
   text-decoration: none;
   display: inline-block;
 }
-.page .visualizer .title-visualizer {
+.page .project-company .title-company {
   padding: 50px 0px 20px 0px;
   text-align: center;
 }
-.page .visualizer .title-visualizer .title .blue-text {
+.page .project-company .title-company .title .blue-text {
   color: #32b4ff;
   text-transform: uppercase;
   font-size: 40px;
   padding-right: 10px;
 }
-.page .visualizer .title-visualizer .title .text {
+.page .project-company .title-company .title .text {
   font-size: 40px;
   color: #fff;
   text-transform: uppercase;
 }
-.page .visualizer .title-visualizer .text-title-visualizer {
+.page .project-company .title-company .text-title-visualizer {
   padding-left: 250px;
   font-size: 18px;
   opacity: 0.4;
   color: #fff;
 }
-.page .visualizer .three-d-visualizer {
+.page .project-company .visualizer .three-d-visualizer {
   display: flex;
 }
-.page .visualizer .three-d-visualizer img {
+.page .project-company .visualizer .three-d-visualizer img {
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -104,33 +104,33 @@ p {
   filter: brightness(80%);
   border-radius: 5px;
 }
-.page .visualizer .three-d-visualizer img:hover {
+.page .project-company .visualizer .three-d-visualizer img:hover {
   filter: brightness(100%);
 }
-.page .visualizer .three-d-visualizer .desciption {
+.page .project-company .visualizer .three-d-visualizer .desciption {
   width: 30%;
   align-self: center;
   padding-left: 200px;
 }
-.page .visualizer .three-d-visualizer .desciption .title-3d-visualizer {
+.page .project-company .visualizer .three-d-visualizer .desciption .title-3d-visualizer {
   padding-bottom: 20px;
 }
-.page .visualizer .three-d-visualizer .desciption .title-3d-visualizer .green-title {
+.page .project-company .visualizer .three-d-visualizer .desciption .title-3d-visualizer .green-title {
   color: #1c941c;
   font-size: 30px;
 }
-.page .visualizer .three-d-visualizer .desciption .title-3d-visualizer .title {
+.page .project-company .visualizer .three-d-visualizer .desciption .title-3d-visualizer .title {
   font-size: 30px;
   color: #fff;
   text-transform: uppercase;
 }
-.page .visualizer .three-d-visualizer .desciption .text-3d-visualizer {
+.page .project-company .visualizer .three-d-visualizer .desciption .text-3d-visualizer {
   color: #9aaaba;
   line-height: 170%;
   font-size: 16px;
   padding-bottom: 20px;
 }
-.page .visualizer .three-d-visualizer .desciption .btn-3d-visualizer {
+.page .project-company .visualizer .three-d-visualizer .desciption .btn-3d-visualizer {
   background: #2ecc71;
   outline: none;
   border: 0;
@@ -140,37 +140,37 @@ p {
   transition: all 0.3s ease;
   border-radius: 5px;
 }
-.page .visualizer .three-d-visualizer .desciption .btn-3d-visualizer:hover {
+.page .project-company .visualizer .three-d-visualizer .desciption .btn-3d-visualizer:hover {
   background: #207744;
 }
-.page .visualizer .three-d-visualizer .desciption .btn-3d-visualizer:active {
+.page .project-company .visualizer .three-d-visualizer .desciption .btn-3d-visualizer:active {
   transform: scale(0.95);
 }
-.page .web-development-courses {
+.page .project-company .web-development-courses {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
 }
-.page .web-development-courses .description-web-development-courses {
+.page .project-company .web-development-courses .description-web-development-courses {
   align-self: center;
   width: 30%;
   padding-left: 200px;
 }
-.page .web-development-courses .description-web-development-courses .title-description-web-development-courses .title-web-development-courses {
+.page .project-company .web-development-courses .description-web-development-courses .title-description-web-development-courses .title-web-development-courses {
   font-size: 30px;
   color: #fff;
 }
-.page .web-development-courses .description-web-development-courses .title-description-web-development-courses .title-part-two-web-development-courses {
+.page .project-company .web-development-courses .description-web-development-courses .title-description-web-development-courses .title-part-two-web-development-courses {
   color: #01b1f8;
   font-size: 30px;
 }
-.page .web-development-courses .description-web-development-courses .text-web-development-courses {
+.page .project-company .web-development-courses .description-web-development-courses .text-web-development-courses {
   line-height: 170%;
   font-size: 16px;
   color: #9aaaba;
   padding: 20px 0px;
 }
-.page .web-development-courses .description-web-development-courses .btn-web-development-courses {
+.page .project-company .web-development-courses .description-web-development-courses .btn-web-development-courses {
   background: #01b1f8;
   outline: none;
   border: 0;
@@ -180,55 +180,55 @@ p {
   transition: all 0.3s ease;
   border-radius: 5px;
 }
-.page .web-development-courses .description-web-development-courses .btn-web-development-courses:hover {
+.page .project-company .web-development-courses .description-web-development-courses .btn-web-development-courses:hover {
   background: #0d749c;
 }
-.page .web-development-courses .description-web-development-courses .btn-web-development-courses:active {
+.page .project-company .web-development-courses .description-web-development-courses .btn-web-development-courses:active {
   transform: scale(0.95);
 }
-.page .web-development-courses .img-web-development-courses {
+.page .project-company .web-development-courses .img-web-development-courses {
   width: 50%;
   transition: all 0.3s ease;
   filter: brightness(80%);
 }
-.page .web-development-courses .img-web-development-courses:hover {
+.page .project-company .web-development-courses .img-web-development-courses:hover {
   filter: brightness(100%);
 }
-.page .ui-library {
+.page .project-company .ui-library {
   display: flex;
   justify-content: space-between;
   padding-bottom: 80px;
 }
-.page .ui-library .img-library {
+.page .project-company .ui-library .img-library {
   width: 50%;
   transition: all 0.3s ease;
   filter: brightness(80%);
 }
-.page .ui-library .img-library:hover {
+.page .project-company .ui-library .img-library:hover {
   filter: brightness(100%);
 }
-.page .ui-library .describtion-ui-library {
+.page .project-company .ui-library .describtion-ui-library {
   width: 30%;
   padding-right: 150px;
   padding-top: 20px;
 }
-.page .ui-library .describtion-ui-library .blue-title-ui-library {
+.page .project-company .ui-library .describtion-ui-library .blue-title-ui-library {
   color: #01b1f8;
   font-size: 30px;
   text-transform: uppercase;
 }
-.page .ui-library .describtion-ui-library .title-ui-library {
+.page .project-company .ui-library .describtion-ui-library .title-ui-library {
   font-size: 30px;
   text-transform: uppercase;
   color: #fff;
 }
-.page .ui-library .describtion-ui-library .text-ui-library {
+.page .project-company .ui-library .describtion-ui-library .text-ui-library {
   line-height: 170%;
   font-size: 16px;
   color: #9aaaba;
   padding: 20px 0px;
 }
-.page .ui-library .describtion-ui-library .btn-describtion-ui-library {
+.page .project-company .ui-library .describtion-ui-library .btn-describtion-ui-library {
   background: #01b1f8;
   outline: none;
   border: 0;
@@ -238,13 +238,13 @@ p {
   transition: all 0.3s ease;
   border-radius: 5px;
 }
-.page .ui-library .describtion-ui-library .btn-describtion-ui-library:hover {
+.page .project-company .ui-library .describtion-ui-library .btn-describtion-ui-library:hover {
   background: #0d749c;
 }
-.page .ui-library .describtion-ui-library .btn-describtion-ui-library:active {
+.page .project-company .ui-library .describtion-ui-library .btn-describtion-ui-library:active {
   transform: scale(0.95);
 }
-.page .our-work {
+.page .project-company .our-work {
   background-image: url(../img/project-work-bg.jpg);
   background-position: center;
   background-size: cover;
@@ -252,7 +252,7 @@ p {
   padding: 200px 0;
   background-repeat: no-repeat;
 }
-.page .our-work .bg-dark {
+.page .project-company .our-work .bg-dark {
   background: rgba(29, 39, 51, 0.7);
   position: absolute;
   top: 0;
@@ -260,20 +260,20 @@ p {
   right: 0;
   left: 0;
 }
-.page .our-work .content {
+.page .project-company .our-work .content {
   position: absolute;
   padding-left: 300px;
 }
-.page .our-work .content .title-our-work {
+.page .project-company .our-work .content .title-our-work {
   font-size: 30px;
   padding-bottom: 20px;
   color: #fff;
 }
-.page .our-work .content .container-btn-our-work {
+.page .project-company .our-work .content .container-btn-our-work {
   padding-left: 275px;
   padding-top: 20px;
 }
-.page .our-work .content .container-btn-our-work .btn-our-work {
+.page .project-company .our-work .content .container-btn-our-work .btn-our-work {
   display: block;
   background: #01b1f8;
   outline: none;
@@ -284,10 +284,10 @@ p {
   transition: all 0.3s ease;
   border-radius: 5px;
 }
-.page .our-work .content .container-btn-our-work .btn-our-work:hover {
+.page .project-company .our-work .content .container-btn-our-work .btn-our-work:hover {
   background: #0d749c;
 }
-.page .our-work .content .container-btn-our-work .btn-our-work:active {
+.page .project-company .our-work .content .container-btn-our-work .btn-our-work:active {
   transform: scale(0.95);
 }
 .page .footer {
@@ -317,33 +317,33 @@ p {
   font-size: 16px;
   padding-left: 10px;
 }
-.page .footer .page {
+.page .footer .page-nav {
   width: 23%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.page .footer .page .title-page {
+.page .footer .page-nav .title-page {
   font-size: 20px;
   font-weight: bold;
   padding-right: 30px;
   color: #fff;
 }
-.page .footer .page .menu {
+.page .footer .page-nav .menu {
   padding-top: 20px;
   padding-left: 50px;
 }
-.page .footer .page .menu li {
+.page .footer .page-nav .menu li {
   list-style: outside;
   color: #838e9e;
   padding-bottom: 10px;
 }
-.page .footer .page .menu li a {
+.page .footer .page-nav .menu li a {
   text-decoration: none;
   color: #67768d;
   transition: all 0.3s ease;
 }
-.page .footer .page .menu li a:hover {
+.page .footer .page-nav .menu li a:hover {
   color: #32b4ff;
 }
 .page .footer .info {

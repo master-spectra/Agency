@@ -1,4 +1,4 @@
-// out:../css/project.css
+// out: ../css/client.css
 html,
 body {
     margin: 0;
@@ -39,22 +39,22 @@ p {
             width: 130px;
             font-size: 20px;
         }
-
+    
         .menu {
             display: inline-block;
             padding-left: 150px;
             padding-top: 20px;
-
+    
             ul {
                 li {
                     display: inline-block;
                     padding-right: 25px;
-
+    
                     a {
                         color: #fff;
                         text-decoration: none;
                         text-transform: uppercase;
-
+    
                         &:hover {
                             color: #32b4ff;
                         }
@@ -62,22 +62,22 @@ p {
                 }
             }
         }
-
+    
         .social-network {
             display: inline-block;
             float: right;
             padding-right: 20px;
             padding-top: 20px;
-
+    
             .vk {
                 color: #fff;
                 font-size: 20px;
                 text-decoration: none;
                 padding-right: 20px;
                 display: inline-block;
-
+    
             }
-
+    
             .dribble {
                 color: #fff;
                 font-size: 20px;
@@ -85,287 +85,186 @@ p {
                 display: inline-block;
             }
         }
-
+    
     }
 
-    .project-company {
-
-        .title-company {
-            padding: 50px 0px 20px 0px;
+    .client {
+        .title-client {
             text-align: center;
-
-            .title {
-                .blue-text {
-                    color: #32b4ff;
-                    text-transform: uppercase;
-                    font-size: 40px;
-                    padding-right: 10px;
-
-                }
-
-                .text {
-                    font-size: 40px;
-                    color: #fff;
-                    text-transform: uppercase;
-                }
-            }
-
-            .text-title-visualizer {
-                padding-left: 250px;
-                font-size: 18px;
-                opacity: 0.4;
+            padding-bottom: 50px;
+            
+            .title-standart-color {
                 color: #fff;
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            .title-blue-color  {
+                color: #01b1f8;
+                font-size: 30px;
+                font-weight: bold;
             }
         }
-
-        .visualizer {
-
-            .three-d-visualizer {
-                display: flex;
-
-                img {
-                    background-position: center;
-                    background-size: cover;
-                    width: 50%;
-                    transition: all 0.3s ease;
-                    filter: brightness(80%);
-                    border-radius: 5px;
-
-                    &:hover {
-                        filter: brightness(100%);
-                    }
-                }
-
-                .desciption {
-                    width: 30%;
-                    align-self: center;
-                    padding-left: 200px;
-
-                    .title-3d-visualizer {
-                        padding-bottom: 20px;
-
-                        .green-title {
-                            color: rgb(28, 148, 28);
-                            font-size: 30px;
-                        }
-
-                        .title {
-                            font-size: 30px;
-                            color: #fff;
-                            text-transform: uppercase;
-                        }
-                    }
-
-                    .text-3d-visualizer {
-                        color: #9aaaba;
-                        line-height: 170%;
-                        font-size: 16px;
-                        padding-bottom: 20px;
-                    }
-
-                    .btn-3d-visualizer {
-                        background: #2ecc71;
-                        outline: none;
-                        border: 0;
-                        cursor: pointer;
-                        padding: 15px 60px;
-                        color: #fff;
-                        transition: all 0.3s ease;
-                        border-radius: 5px;
-
-                        &:hover {
-                            background: #207744;
-
-                        }
-
-                        &:active {
-                            transform: scale(0.95);
-                        }
-                    }
-                }
-
-            }
-        }
-
-        .web-development-courses {
-            box-sizing: border-box;
+        
+        .small-academy-scenice {
             display: flex;
             justify-content: space-between;
-
-            .description-web-development-courses {
+           
+            .description {
+                width: 30%;
                 align-self: center;
-                width: 30%;
-                padding-left: 200px;
+                padding-left: 50px;
 
-                .title-description-web-development-courses {
-                    .title-web-development-courses {
-                        font-size: 30px;
-                        color: #fff;
-                    }
-
-                    .title-part-two-web-development-courses {
-                        color: #01b1f8;
-                        font-size: 30px;
-                    }
-                }
-
-                .text-web-development-courses {
-                    line-height: 170%;
-                    font-size: 16px;
-                    color: #9aaaba;
-                    padding: 20px 0px;
-                }
-
-                .btn-web-development-courses {
-                    background: #01b1f8;
-                    outline: none;
-                    border: 0;
-                    cursor: pointer;
-                    padding: 15px 40px;
-                    color: #fff;
-                    transition: all 0.3s ease;
-                    border-radius: 5px;
-
-                    &:hover {
-                        background: #0d749c;
-
-                    }
-
-                    &:active {
-                        transform: scale(0.95);
-                    }
-                }
-            }
-
-            .img-web-development-courses {
-                width: 50%;
-                transition: all 0.3s ease;
-                filter: brightness(80%);
-
-                &:hover {
-                    filter: brightness(100%);
-                }
-            }
-        }
-
-        .ui-library {
-            display: flex;
-            justify-content: space-between;
-            padding-bottom: 80px;
-
-            .img-library {
-                width: 50%;
-                transition: all 0.3s ease;
-                filter: brightness(80%);
-
-                &:hover {
-                    filter: brightness(100%);
-                }
-            }
-
-            .describtion-ui-library {
-                width: 30%;
-                padding-right: 150px;
-                padding-top: 20px;
-
-                .blue-title-ui-library {
-                    color: #01b1f8;
-                    font-size: 30px;
-                    text-transform: uppercase;
-                }
-
-                .title-ui-library {
-                    font-size: 30px;
-                    text-transform: uppercase;
-                    color: #fff;
-                }
-
-                .text-ui-library {
-                    line-height: 170%;
-                    font-size: 16px;
-                    color: #9aaaba;
-                    padding: 20px 0px;
-                }
-
-                .btn-describtion-ui-library {
-                    background: #01b1f8;
-                    outline: none;
-                    border: 0;
-                    cursor: pointer;
-                    padding: 15px 40px;
-                    color: #fff;
-                    transition: all 0.3s ease;
-                    border-radius: 5px;
-
-                    &:hover {
-                        background: #0d749c;
-
-                    }
-
-                    &:active {
-                        transform: scale(0.95);
-                    }
-                }
-            }
-        }
-
-        .our-work {
-            background-image: url(../img/project-work-bg.jpg);
-            background-position: center;
-            background-size: cover;
-            position: relative;
-            padding: 200px 0;
-            background-repeat: no-repeat;
-
-            .bg-dark {
-                background: rgba(29, 39, 51, 0.7);
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                right: 0;
-                left: 0;
-            }
-
-            .content {
-                position: absolute;
-                padding-left: 300px;
-
-                .title-our-work {
-                    font-size: 30px;
+                .title-description-academy {
+                    font-size: 25px;
                     padding-bottom: 20px;
                     color: #fff;
                 }
+               
+                .text-description-academy {
+                    line-height: 170%;
+                    color: #67768d;
+                    font-size: 16px;
+                    padding-bottom: 20px;
+                }
+            
+                .btn-description-academy {
+                    background-color: #01b1f8;
+                    outline: none;
+                    border: 0;
+                    padding: 10px 30px;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-size: 20px;
+                    transition: all 0.3s ease;
+    
+                    &:hover {
+                        background-color: #0375a1;
+                    }
+    
+                    &:active {
+                        transform: scale(0.95);
+                    }
+                }    
+            }
+            
+            .img-description-academy {
+                width: 50%;
+                filter: brightness(80%);
+                transition: all 0.3s ease;
 
-                .container-btn-our-work {
-                    padding-left: 275px;
-                    padding-top: 20px;
+                &:hover {
+                    filter: brightness(100%);
+                }
+            }
+        }
+        .ONPU {
+            display: flex;
+            padding-bottom: 50px;
 
-                    .btn-our-work {
-                        display: block;
-                        background: #01b1f8;
-                        outline: none;
-                        border: 0;
-                        cursor: pointer;
-                        padding: 15px 40px;
-                        color: #fff;
-                        transition: all 0.3s ease;
-                        border-radius: 5px;
+            .img-onpu {
+                width: 50%;
+                filter: brightness(80%);
+                transition: all 0.3s ease;
 
-                        &:hover {
-                            background: #0d749c;
+                &:hover {
+                    filter: brightness(100%);
+            }            }
+            
+            .description-onpu {
+                align-self: center;
+                width: 30%;
+                padding-left: 100px;
+                .title-description-onpu {
+                    font-size: 25px;
+                    color: #fff;
+                    padding-bottom: 20px;
+                }
 
-                        }
+                .text-description-onpu {
+                    line-height: 170%;
+                    color: #67768d;
+                    font-size: 16px;
+                    padding-bottom: 20px;
+                }
+                
+                .btn-description-onpu {
+                    background-color: #01b1f8;
+                    outline: none;
+                    border: 0;
+                    padding: 10px 30px;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-size: 20px;
+                    transition: all 0.3s ease;
+    
+                    &:hover {
+                        background-color: #0375a1;
+                    }
+    
+                    &:active {
+                        transform: scale(0.95);
+                    }
+                }
+            }
 
-                        &:active {
-                            transform: scale(0.95);
-                        }
+        }
+        
+        .view-portfolio {
+            
+            background-image: url(../img/project-work-bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            
+            .bg-blue {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                background-color: #19222c;
+                left: 0;
+                opacity: 0.8;
+                right: 0;
+            }
+            
+            .content-view-portfolio {
+                padding: 200px 0px;
+                text-align: center;
+                position:  relative;
+                bottom: 0;
+                top: 0;
+                left: 0;
+                right: 0;
+
+                .title-view-portfolio {
+                    color: #fff;
+                    font-size: 30px;
+                    padding-bottom: 20px;
+                }
+                
+                .btn-view-portfolio {
+                    background-color: #01b1f8;
+                    outline: none;
+                    border: 0;
+                    padding: 10px 30px;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-size: 20px;
+                    transition: all 0.3s ease;
+    
+                    &:hover {
+                        background-color: #0375a1;
+                    }
+    
+                    &:active {
+                        transform: scale(0.95);
                     }
                 }
             }
         }
-
+   
     }
-
 
 
     .footer {
@@ -505,43 +404,43 @@ p {
                 line-height: 150%;
             }
         }
-
+        
         .down-footer {
             display: flex;
             justify-content: space-between;
             width: 100%;
             padding-bottom: 20px;
-
-            .text-down-footer {}
-
+            .text-down-footer {
+                
+            }
+       
             .social-network-footer {
                 display: flex;
-
                 .vk-footer {
                     display: flex;
                     text-decoration: none;
                     padding-right: 20px;
                     color: #67768d;
-
+                   
                     .vk-name-footer {
                         color: #67768d;
                         padding-left: 20px;
                     }
                 }
-
+                
                 .dribble-footer {
                     display: flex;
                     text-decoration: none;
                     color: #67768d;
-
                     .dribble-name-footer {
                         color: #67768d;
                         padding-left: 20px;
                     }
                 }
             }
-
+       
         }
-
+    
     }
 }
+
