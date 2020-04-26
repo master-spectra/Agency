@@ -26,6 +26,33 @@ p {
 .page {
   background: #1d2733;
 }
+.page .fixed-btn-page {
+  position: absolute;
+  position: fixed;
+  top: 500px;
+  z-index: 8;
+  bottom: 0px;
+  left: 0;
+  right: 100px;
+  text-align: end;
+}
+.page .fixed-btn-page .fixed-btn {
+  background: #01b1f8;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  padding: 15px 15px;
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 100%;
+  text-decoration: none;
+}
+.page .fixed-btn-page .fixed-btn:hover {
+  background: #0d749c;
+}
+.page .fixed-btn-page .fixed-btn:active {
+  transform: scale(0.95);
+}
 .page .header {
   padding: 50px;
 }
