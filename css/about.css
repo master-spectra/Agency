@@ -1,0 +1,164 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Tahoma;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+span,
+div,
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #000;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+}
+.page {
+  background-image: url(../img/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.page .bg-blue {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(29, 39, 51, 0.9);
+}
+.page .header {
+  position: relative;
+  z-index: 1;
+}
+.page .header .fixed-btn-page {
+  position: absolute;
+  position: fixed;
+  top: 500px;
+  z-index: 8;
+  bottom: 0px;
+  left: 0;
+  right: 100px;
+  text-align: end;
+}
+.page .header .fixed-btn-page .fixed-btn {
+  background: #01b1f8;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  padding: 15px 15px;
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 100%;
+  text-decoration: none;
+}
+.page .header .fixed-btn-page .fixed-btn:hover {
+  background: #0d749c;
+}
+.page .header .fixed-btn-page .fixed-btn:active {
+  transform: scale(0.95);
+}
+.page .header .top-header {
+  padding: 50px;
+}
+.page .header .top-header .logo {
+  display: inline-block;
+  color: #fff;
+  float: left;
+  width: 130px;
+  font-size: 20px;
+}
+.page .header .top-header .menu {
+  display: inline-block;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+.page .header .top-header .menu ul li {
+  display: inline-block;
+  padding-right: 25px;
+}
+.page .header .top-header .menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.page .header .top-header .menu ul li a:hover {
+  color: #32b4ff;
+}
+.page .header .top-header .social-network {
+  display: inline-block;
+  float: right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.page .header .top-header .social-network .vk {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: 20px;
+  display: inline-block;
+}
+.page .header .top-header .social-network .dribble {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+.page .header .down-header {
+  text-align: center;
+  padding: 200px 0px;
+}
+.page .header .down-header .title-down-header {
+  font-size: 30px;
+  color: #fff;
+  line-height: 170%;
+  padding-bottom: 20px;
+}
+.page .header .down-header .btn-down-header .presention .btn-presention {
+  background-color: #01b1f8;
+  outline: none;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.page .header .down-header .btn-down-header .presention .btn-presention:hover {
+  background-color: #0375a1;
+}
+.page .header .down-header .btn-down-header .presention .btn-presention:active {
+  transform: scale(0.95);
+}
+.page .header .down-header .btn-down-header .us-work {
+  padding-left: 20px;
+}
+.page .header .down-header .btn-down-header .us-work .btn-us-work {
+  background: #19202a;
+  outline: none;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.page .header .down-header .btn-down-header .us-work .btn-us-work:hover {
+  background-color: #0375a1;
+}
+.page .header .down-header .btn-down-header .us-work .btn-us-work:active {
+  transform: scale(0.95);
+}
