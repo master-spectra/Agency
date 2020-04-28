@@ -236,3 +236,53 @@ p {
 .page .strategy img {
   width: 50%;
 }
+.page .ux-design {
+  padding: 50px 0px;
+  display: flex;
+}
+.page .ux-design .img-ux-design {
+  width: 50%;
+}
+.page .ux-design .description-ux-design {
+  padding-top: 100px;
+}
+.page .ux-design .description-ux-design .title-ux-design .first-part-title {
+  color: #fff;
+  font-size: 30px;
+}
+.page .ux-design .description-ux-design .title-ux-design .second-part-title {
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.page .ux-design .description-ux-design .text-ux-design {
+  width: 70%;
+  line-height: 170%;
+  font-size: 16px;
+  color: #828fa2;
+}
+.page .technologies {
+  display: flex;
+}
+.page .technologies .vertica-text {
+  color: #828fa2;
+  text-transform: uppercase;
+  font-size: 50px;
+  transform: rotate(270deg);
+}
+.page .technologies .description-technologies {
+  align-self: center;
+}
+.page .technologies .description-technologies .title-description-technologies {
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.page .technologies .description-technologies .text-description-technologies {
+  line-height: 170%;
+  font-size: 16px;
+  color: #828fa2;
+}
+.page .technologies .img-technologies {
+  width: 50%;
+}
