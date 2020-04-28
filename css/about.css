@@ -24,13 +24,16 @@ p {
   font-weight: normal;
 }
 .page {
+  background-color: #19202a;
+}
+.page .header {
   background-image: url(../img/header-bg.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
 }
-.page .bg-blue {
+.page .header .bg-blue {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -38,10 +41,6 @@ p {
   left: 0;
   z-index: 1;
   background-color: rgba(29, 39, 51, 0.9);
-}
-.page .header {
-  position: relative;
-  z-index: 1;
 }
 .page .header .fixed-btn-page {
   position: absolute;
@@ -72,6 +71,8 @@ p {
 }
 .page .header .top-header {
   padding: 50px;
+  position: relative;
+  z-index: 1;
 }
 .page .header .top-header .logo {
   display: inline-block;
@@ -119,6 +120,8 @@ p {
 .page .header .down-header {
   text-align: center;
   padding: 200px 0px;
+  position: relative;
+  z-index: 1;
 }
 .page .header .down-header .title-down-header {
   font-size: 30px;
@@ -161,4 +164,75 @@ p {
 }
 .page .header .down-header .btn-down-header .us-work .btn-us-work:active {
   transform: scale(0.95);
+}
+.page .directions .title-directions {
+  color: #fff;
+  font-size: 40px;
+  padding-top: 80px;
+  text-align: center;
+}
+.page .directions .cards {
+  display: flex;
+  padding-top: 50px;
+}
+.page .directions .cards .card {
+  text-align: center;
+  padding: 0px 30px;
+}
+.page .directions .cards .card .icon {
+  color: #0d749c;
+  font-size: 40px;
+}
+.page .directions .cards .card .title-card {
+  color: #fff;
+  font-size: 25px;
+  padding: 20px 0px;
+}
+.page .directions .cards .card .text-card {
+  color: #828fa2;
+  font-size: 16px;
+  line-height: 170%;
+}
+.page .directions .btn-directions {
+  text-align: center;
+  padding: 20px 0px;
+}
+.page .directions .btn-directions .btn-overlay .btn-directions-content {
+  background-color: #01b1f8;
+  outline: none;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.page .directions .btn-directions .btn-overlay .btn-directions-content:hover {
+  background-color: #0375a1;
+}
+.page .directions .btn-directions .btn-overlay .btn-directions-content:active {
+  transform: scale(0.95);
+}
+.page .strategy {
+  background-color: #1d2733;
+  display: flex;
+  justify-content: space-between;
+}
+.page .strategy .description-strategy {
+  align-self: center;
+  width: 30%;
+  padding-left: 50px;
+}
+.page .strategy .description-strategy .title-strategy {
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.page .strategy .description-strategy .text-strategy {
+  line-height: 170%;
+  font-size: 16px;
+  color: #828fa2;
+}
+.page .strategy img {
+  width: 50%;
 }

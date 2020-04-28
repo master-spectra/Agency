@@ -28,25 +28,24 @@ p {
 
 
 .page {
-    background-image: url(../img/header-bg.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    background-repeat: no-repeat;
+    background-color: #19202a;
 
-    .bg-blue {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        z-index: 1;
-        background-color: rgba(29, 39, 51, 0.9);
-    }
-    
     .header {
+        background-image: url(../img/header-bg.jpg);
+        background-position: center;
+        background-size: cover;
         position: relative;
-        z-index: 1;
+        background-repeat: no-repeat;
+
+        .bg-blue {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            z-index: 1;
+            background-color: rgba(29, 39, 51, 0.9);
+        }
 
         .fixed-btn-page {
             position: absolute;
@@ -83,6 +82,8 @@ p {
 
         .top-header {
             padding: 50px;
+            position: relative;
+            z-index: 1;
 
             .logo {
                 display: inline-block;
@@ -138,11 +139,13 @@ p {
                 }
             }
         }
-        
+
         .down-header {
             text-align: center;
             padding: 200px 0px;
-           
+            position: relative;
+            z-index: 1;
+
             .title-down-header {
                 font-size: 30px;
                 color: #fff;
@@ -161,20 +164,20 @@ p {
                         color: #fff;
                         font-size: 20px;
                         transition: all 0.3s ease;
-    
+
                         &:hover {
                             background-color: #0375a1;
                         }
-    
+
                         &:active {
                             transform: scale(0.95);
                         }
                     }
                 }
-    
+
                 .us-work {
                     padding-left: 20px;
-                    
+
                     .btn-us-work {
                         background: #19202a;
                         outline: none;
@@ -199,5 +202,96 @@ p {
         }
     }
 
-}
+    .directions {
 
+        .title-directions {
+            color: #fff;
+            font-size: 40px;
+            padding-top: 80px;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            padding-top: 50px;
+
+            .card {
+                text-align: center;
+                padding: 0px 30px;
+
+                .icon {
+                    color: #0d749c;
+                    font-size: 40px;
+                }
+
+                .title-card {
+                    color: #fff;
+                    font-size: 25px;
+                    padding: 20px 0px;
+                }
+
+
+                .text-card {
+                    color: #828fa2;
+                    font-size: 16px;
+                    line-height: 170%;
+                }
+            }
+        }
+
+        .btn-directions {
+            text-align: center;
+            padding: 20px 0px;
+
+            .btn-overlay {
+                .btn-directions-content {
+                    background-color: #01b1f8;
+                    outline: none;
+                    border: 0;
+                    padding: 10px 30px;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-size: 20px;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        background-color: #0375a1;
+                    }
+
+                    &:active {
+                        transform: scale(0.95);
+                    }
+                }
+            }
+        }
+
+    }
+
+    .strategy {
+        background-color: #1d2733;
+        display: flex;
+        justify-content: space-between;
+        
+        .description-strategy {
+            align-self: center;
+            width: 30%;
+            padding-left: 50px;
+
+            .title-strategy {
+                font-size: 30px;
+                color: #fff;
+                padding-bottom: 20px;
+            }
+       
+            .text-strategy {
+                line-height: 170%;
+                font-size: 16px;
+                color: #828fa2;
+            }
+        }
+    
+        img {
+            width: 50%;
+        }
+    }
+}
