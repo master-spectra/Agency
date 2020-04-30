@@ -270,19 +270,27 @@ p {
   font-size: 50px;
   transform: rotate(270deg);
 }
-.page .technologies .description-technologies {
-  align-self: center;
-}
 .page .technologies .description-technologies .title-description-technologies {
   font-size: 30px;
   color: #fff;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 .page .technologies .description-technologies .text-description-technologies {
   line-height: 170%;
   font-size: 16px;
+  padding-right: 100px;
   color: #828fa2;
+  padding-bottom: 120px;
 }
 .page .technologies .img-technologies {
-  width: 50%;
+  width: 40%;
+}
+.page .service-section .description .title-first {
+  font-size: 30px;
+  color: #828fa2;
+}
+.page .service-section .description .title-second {
+  font-size: 30px;
+  color: #fff;
 }
