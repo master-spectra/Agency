@@ -1,0 +1,1 @@
+$('.page .question-answer .your-questaion .btn-question').slick
