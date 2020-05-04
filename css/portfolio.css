@@ -72,10 +72,260 @@ p {
   text-decoration: none;
   display: inline-block;
 }
+.page .slider {
+  position: relative;
+}
+.page .slider .content-slider {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.page .slider .content-slider .corporate-site .title-corporate-site {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+.page .slider .content-slider .corporate-site .image-corporate-site {
+  display: flex;
+  position: relative;
+  padding: 0px 50px;
+}
+.page .slider .content-slider .corporate-site .image-corporate-site .left {
+  width: 25%;
+  padding-top: 20px;
+  height: 300px;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+.page .slider .content-slider .corporate-site .image-corporate-site .left:hover {
+  transform: scale(1.02);
+  filter: grayscale(0);
+}
+.page .slider .content-slider .corporate-site .image-corporate-site .center {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 300px;
+  filter: grayscale(100%);
+  height: 350px;
+  bottom: 0;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+.page .slider .content-slider .corporate-site .image-corporate-site .center:hover {
+  transform: scale(1.05);
+  filter: grayscale(0);
+}
+.page .slider .content-slider .corporate-site .image-corporate-site .right {
+  padding-left: 50%;
+  padding-top: 20px;
+  filter: grayscale(100%);
+  width: 25%;
+  height: 300px;
+  transition: all 0.3s ease;
+}
+.page .slider .content-slider .corporate-site .image-corporate-site .right:hover {
+  transform: scale(1.02);
+  filter: grayscale(0);
+}
+.page .slider .content-slider .online-store {
+  padding-bottom: 100px;
+}
+.page .slider .content-slider .online-store .title-online-store {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+.page .slider .content-slider .online-store .image-online-store {
+  display: flex;
+  padding: 0px 50px;
+}
+.page .slider .content-slider .online-store .image-online-store .left-online-store {
+  width: 20%;
+  padding-top: 20px;
+  height: 300px;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+.page .slider .content-slider .online-store .image-online-store .left-online-store:hover {
+  transform: scale(1.02);
+  filter: grayscale(0);
+}
+.page .slider .content-slider .online-store .image-online-store .center-online-store {
+  width: 60%;
+  top: 0;
+  right: 0;
+  left: 300px;
+  filter: grayscale(100%);
+  height: 350px;
+  z-index: 1;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+.page .slider .content-slider .online-store .image-online-store .center-online-store:hover {
+  transform: scale(1.05);
+  filter: grayscale(0);
+}
+.page .slider .content-slider .online-store .image-online-store .right-online-store {
+  padding-top: 20px;
+  filter: grayscale(100%);
+  width: 20%;
+  height: 300px;
+  transition: all 0.3s ease;
+}
+.page .slider .content-slider .online-store .image-online-store .right-online-store:hover {
+  transform: scale(1.02);
+  filter: grayscale(0);
+}
+.page .slider .content-slider .design {
+  padding-bottom: 100px;
+}
+.page .slider .content-slider .design .title-design {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+.page .slider .content-slider .design .image-design {
+  display: flex;
+  padding: 0px 50px;
+}
+.page .slider .content-slider .design .image-design .left-design {
+  width: 20%;
+  padding-top: 20px;
+  height: 300px;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+.page .slider .content-slider .design .image-design .left-design:hover {
+  transform: scale(1.02);
+  filter: grayscale(0);
+}
+.page .slider .content-slider .design .image-design .center-design {
+  width: 60%;
+  top: 0;
+  right: 0;
+  left: 300px;
+  filter: grayscale(100%);
+  height: 350px;
+  z-index: 1;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+.page .slider .content-slider .design .image-design .center-design:hover {
+  transform: scale(1.05);
+  filter: grayscale(0);
+}
+.page .slider .content-slider .design .image-design .right-design {
+  padding-top: 20px;
+  filter: grayscale(100%);
+  width: 20%;
+  height: 300px;
+  transition: all 0.3s ease;
+}
+.page .slider .content-slider .design .image-design .right-design:hover {
+  transform: scale(1.02);
+  filter: grayscale(0);
+}
+.page .slider .btn-slider {
+  position: absolute;
+  top: 420px;
+  bottom: 0;
+  left: 600px;
+  right: 0;
+  z-index: 5;
+}
+.page .slider .btn-slider button {
+  background-color: #01b1f8;
+  outline: none;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.page .slider .btn-slider button:hover {
+  background-color: #0375a1;
+}
+.page .slider .btn-slider button:active {
+  transform: scale(0.95);
+}
+.page .works-list {
+  padding: 0px 50px;
+}
+.page .works-list .image-block img {
+  width: 400px;
+  filter: brightness(80%);
+  transition: all 0.3s ease;
+  padding-top: 10px;
+}
+.page .works-list .image-block img:hover {
+  padding-top: 0;
+  filter: brightness(100%);
+}
+.page .works-list .image-block .title-image-block {
+  font-size: 20px;
+  color: #fff;
+  padding-left: 20px;
+}
+.page .works-list .image-block .text-block-image {
+  font-size: 16px;
+  padding-left: 20px;
+  color: #67768d;
+}
+.page .our-work {
+  background-image: url(../img/project-work-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 200px 0;
+  background-repeat: no-repeat;
+}
+.page .our-work .bg-dark {
+  background: rgba(29, 39, 51, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.page .our-work .content {
+  position: absolute;
+  padding-left: 300px;
+}
+.page .our-work .content .title-our-work {
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.page .our-work .content .container-btn-our-work {
+  padding-left: 275px;
+  padding-top: 20px;
+}
+.page .our-work .content .container-btn-our-work .btn-our-work {
+  display: block;
+  background: #01b1f8;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  padding: 15px 40px;
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.page .our-work .content .container-btn-our-work .btn-our-work:hover {
+  background: #0d749c;
+}
+.page .our-work .content .container-btn-our-work .btn-our-work:active {
+  transform: scale(0.95);
+}
 .page .footer {
   display: flex;
-  justify-content: space-around;
-  padding: 0px 20px;
+  padding: 50px 20px 0px 20px;
+  flex-wrap: wrap;
 }
 .page .footer .main-info {
   width: 23%;
@@ -99,33 +349,33 @@ p {
   font-size: 16px;
   padding-left: 10px;
 }
-.page .footer .page {
+.page .footer .page-nav {
   width: 23%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.page .footer .page .title-page {
+.page .footer .page-nav .title-page {
   font-size: 20px;
   font-weight: bold;
   padding-right: 30px;
   color: #fff;
 }
-.page .footer .page .menu {
+.page .footer .page-nav .menu {
   padding-top: 20px;
   padding-left: 50px;
 }
-.page .footer .page .menu li {
+.page .footer .page-nav .menu li {
   list-style: outside;
   color: #838e9e;
   padding-bottom: 10px;
 }
-.page .footer .page .menu li a {
+.page .footer .page-nav .menu li a {
   text-decoration: none;
   color: #67768d;
   transition: all 0.3s ease;
 }
-.page .footer .page .menu li a:hover {
+.page .footer .page-nav .menu li a:hover {
   color: #32b4ff;
 }
 .page .footer .info {
@@ -183,4 +433,32 @@ p {
   color: #67768d;
   font-size: 16px;
   line-height: 150%;
+}
+.page .footer .down-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.page .footer .down-footer .social-network-footer {
+  display: flex;
+}
+.page .footer .down-footer .social-network-footer .vk-footer {
+  display: flex;
+  text-decoration: none;
+  padding-right: 20px;
+  color: #67768d;
+}
+.page .footer .down-footer .social-network-footer .vk-footer .vk-name-footer {
+  color: #67768d;
+  padding-left: 20px;
+}
+.page .footer .down-footer .social-network-footer .dribble-footer {
+  display: flex;
+  text-decoration: none;
+  color: #67768d;
+}
+.page .footer .down-footer .social-network-footer .dribble-footer .dribble-name-footer {
+  color: #67768d;
+  padding-left: 20px;
 }
