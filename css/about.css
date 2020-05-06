@@ -23,6 +23,10 @@ p {
   text-decoration: none;
   font-weight: normal;
 }
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
 .page {
   background-color: #19202a;
 }
@@ -48,9 +52,9 @@ p {
   top: 500px;
   z-index: 8;
   bottom: 0px;
-  left: 0;
+  width: 100px;
+  height: 25px;
   right: 100px;
-  text-align: end;
 }
 .page .header .fixed-btn-page .fixed-btn {
   background: #01b1f8;
@@ -70,9 +74,9 @@ p {
   transform: scale(0.95);
 }
 .page .header .top-header {
-  padding: 50px;
   position: relative;
   z-index: 1;
+  padding-top: 50px;
 }
 .page .header .top-header .logo {
   display: inline-block;
@@ -83,17 +87,18 @@ p {
 }
 .page .header .top-header .menu {
   display: inline-block;
-  padding-left: 150px;
+  padding-left: 100px;
   padding-top: 20px;
 }
 .page .header .top-header .menu ul li {
   display: inline-block;
-  padding-right: 25px;
+  padding-right: 20px;
 }
 .page .header .top-header .menu ul li a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .page .header .top-header .menu ul li a:hover {
   color: #32b4ff;
@@ -119,15 +124,19 @@ p {
 }
 .page .header .down-header {
   text-align: center;
-  padding: 200px 0px;
+  padding: 200px 100px 0px 100px;
   position: relative;
   z-index: 1;
+  height: 60vh;
 }
 .page .header .down-header .title-down-header {
   font-size: 30px;
   color: #fff;
   line-height: 170%;
   padding-bottom: 20px;
+}
+.page .header .down-header .btn-down-header {
+  padding-top: 20px;
 }
 .page .header .down-header .btn-down-header .presention .btn-presention {
   background-color: #01b1f8;
@@ -152,7 +161,7 @@ p {
   background: #19202a;
   outline: none;
   border: 0;
-  padding: 10px 30px;
+  padding: 10px 35px;
   border-radius: 5px;
   cursor: pointer;
   color: #fff;
@@ -169,6 +178,16 @@ p {
   padding-bottom: 50px;
 }
 .page .directions .title-directions {
+  text-align: center;
+  padding-top: 50px;
+}
+.page .directions .title-directions .first-title-directions {
+  color: #01b1f8;
+  font-size: 40px;
+  padding-top: 80px;
+  text-align: center;
+}
+.page .directions .title-directions .second-title-directions {
   color: #fff;
   font-size: 40px;
   padding-top: 80px;
@@ -180,7 +199,7 @@ p {
 }
 .page .directions .cards .card {
   text-align: center;
-  padding: 0px 30px;
+  padding: 0px 20px;
 }
 .page .directions .cards .card .icon {
   color: #0d749c;
@@ -198,7 +217,7 @@ p {
 }
 .page .directions .btn-directions {
   text-align: center;
-  padding: 20px 0px;
+  padding: 50px 0px;
 }
 .page .directions .btn-directions .btn-overlay .btn-directions-content {
   background-color: #01b1f8;
@@ -218,80 +237,135 @@ p {
 }
 .page .strategy {
   background-color: #1d2733;
+}
+.page .strategy .content-strategy {
   display: flex;
   justify-content: space-between;
 }
-.page .strategy .description-strategy {
-  align-self: center;
-  width: 30%;
-  padding-left: 50px;
-}
-.page .strategy .description-strategy .title-strategy {
-  font-size: 30px;
-  color: #fff;
-  padding-bottom: 20px;
-}
-.page .strategy .description-strategy .text-strategy {
-  line-height: 170%;
-  font-size: 16px;
-  color: #828fa2;
-}
-.page .strategy img {
-  width: 50%;
-}
-.page .ux-design {
-  padding: 50px 0px;
-  display: flex;
-  background-color: #1d2733;
-}
-.page .ux-design .img-ux-design {
-  width: 50%;
-}
-.page .ux-design .description-ux-design {
+.page .strategy .content-strategy .description-strategy {
   padding-top: 100px;
+  position: relative;
 }
-.page .ux-design .description-ux-design .title-ux-design .first-part-title {
-  color: #fff;
-  font-size: 30px;
-}
-.page .ux-design .description-ux-design .title-ux-design .second-part-title {
-  color: #fff;
-  font-size: 30px;
-  padding-bottom: 20px;
-}
-.page .ux-design .description-ux-design .text-ux-design {
-  width: 70%;
-  line-height: 170%;
-  font-size: 16px;
-  color: #828fa2;
-}
-.page .technologies {
-  display: flex;
-  padding-bottom: 100px;
-  background-color: #1d2733;
-}
-.page .technologies .vertica-text {
+.page .strategy .content-strategy .description-strategy .vertical-title-strategy {
   color: #828fa2;
   text-transform: uppercase;
   font-size: 50px;
+  z-index: 5;
+  top: 0px;
+  left: 0px;
+  right: 430px;
+  bottom: 50px;
+  position: absolute;
   transform: rotate(270deg);
-  padding-left: 50px;
 }
-.page .technologies .description-technologies .title-description-technologies {
-  font-size: 30px;
-  color: #fff;
-  padding-top: 50px;
+.page .strategy .content-strategy .description-strategy .title-strategy {
+  width: 100%;
   padding-bottom: 20px;
 }
-.page .technologies .description-technologies .text-description-technologies {
+.page .strategy .content-strategy .description-strategy .title-strategy .first-title-strategy {
+  font-size: 30px;
+  color: #24c271;
+  padding-bottom: 20px;
+}
+.page .strategy .content-strategy .description-strategy .title-strategy .second-title-strategy {
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.page .strategy .content-strategy .description-strategy .text-strategy {
+  line-height: 170%;
+  font-size: 16px;
+  justify-items: center;
+  color: #828fa2;
+}
+.page .strategy .content-strategy img {
+  height: 100%;
+  width: 45%;
+}
+.page .ux-design {
+  display: flex;
+  background-color: #1d2733;
+}
+.page .ux-design .content-ux-design {
+  display: flex;
+}
+.page .ux-design .content-ux-design .img-ux-design {
+  width: 50%;
+}
+.page .ux-design .content-ux-design .description-ux-design {
+  padding-top: 100px;
+  position: relative;
+}
+.page .ux-design .content-ux-design .description-ux-design .title-ux-design {
+  width: 35%;
+  padding-bottom: 20px;
+}
+.page .ux-design .content-ux-design .description-ux-design .title-ux-design .first-part-title {
+  color: #fff;
+  font-size: 30px;
+}
+.page .ux-design .content-ux-design .description-ux-design .title-ux-design .second-part-title {
+  color: #01b1f8;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.page .ux-design .content-ux-design .description-ux-design .text-ux-design {
+  line-height: 170%;
+  font-size: 16px;
+  color: #828fa2;
+}
+.page .ux-design .content-ux-design .vertical-title-design {
+  color: #828fa2;
+  text-transform: uppercase;
+  font-size: 50px;
+  z-index: 5;
+  bottom: 250px;
+  right: -35px;
+  position: absolute;
+  transform: translate(55%) rotate(90deg);
+}
+.page .technologies {
+  padding-bottom: 100px;
+  background-color: #1d2733;
+}
+.page .technologies .content-technologies {
+  display: flex;
+  position: relative;
+}
+.page .technologies .content-technologies .vertica-text {
+  color: #828fa2;
+  text-transform: uppercase;
+  font-size: 50px;
+  z-index: 5;
+  top: 110px;
+  left: -250px;
+  position: absolute;
+  transform: rotate(270deg);
+}
+.page .technologies .content-technologies .description-technologies {
+  padding: 50px 0px;
+}
+.page .technologies .content-technologies .description-technologies .title-description-technologies {
+  padding-bottom: 20px;
+}
+.page .technologies .content-technologies .description-technologies .title-description-technologies .first-title-description {
+  font-size: 30px;
+  color: #fff;
+}
+.page .technologies .content-technologies .description-technologies .title-description-technologies .second-title-description {
+  color: #f5b327;
+  font-size: 30px;
+}
+.page .technologies .content-technologies .description-technologies .text-description-technologies {
   line-height: 170%;
   font-size: 16px;
   padding-right: 100px;
   color: #828fa2;
   padding-bottom: 120px;
 }
-.page .technologies .img-technologies {
+.page .technologies .content-technologies .img-technologies {
   width: 40%;
+  height: 100%;
 }
 .page .service-section {
   background-position: center;
@@ -324,10 +398,14 @@ p {
   padding-bottom: 20px;
   color: #828fa2;
 }
-.page .service-section .content .first-description .title-second-description {
+.page .service-section .content .first-description .title-second-description .default-color {
   font-size: 30px;
-  padding-bottom: 20px;
   color: #fff;
+  padding-left: 10px;
+}
+.page .service-section .content .first-description .title-second-description .special-color {
+  color: #01b1f8;
+  font-size: 30px;
 }
 .page .service-section .content .first-description .text-service {
   color: #828fa2;
@@ -335,21 +413,28 @@ p {
   width: 50%;
   padding-left: 25%;
   line-height: 170%;
+  padding-bottom: 50px;
 }
 .page .project-about {
-  padding: 100px 0px;
+  padding-bottom: 100px;
 }
 .page .project-about .title-project-about {
+  text-align: center;
+  padding: 100px 0px 20px 0px;
+}
+.page .project-about .title-project-about .first-title-project-about {
+  font-size: 25px;
+  color: #01b1f8;
+}
+.page .project-about .title-project-about .second-title-project-about {
   font-size: 25px;
   color: #fff;
-  text-align: center;
-  padding: 50px 0px;
 }
 .page .project-about .content {
   display: flex;
+  justify-content: space-around;
 }
 .page .project-about .content .card {
-  padding: 0px 20px;
   width: 30%;
 }
 .page .project-about .content .card .img-card {
@@ -360,9 +445,27 @@ p {
   text-align: center;
 }
 .page .project-about .content .card .description-card .title-card {
-  font-size: 20px;
   padding: 20px 0px;
+}
+.page .project-about .content .card .description-card .title-card .first-title-description-card {
+  font-size: 20px;
   color: #fff;
+}
+.page .project-about .content .card .description-card .title-card .second-title-description-card {
+  font-size: 20px;
+  color: #01b1f8;
+}
+.page .project-about .content .card .description-card .title-card .green {
+  font-size: 20px;
+  color: #24c271;
+}
+.page .project-about .content .card .description-card .title-card .white {
+  color: #fff;
+  font-size: 20px;
+}
+.page .project-about .content .card .description-card .title-card .blue-text {
+  font-size: 20px;
+  color: #01b1f8;
 }
 .page .project-about .content .card .description-card .text-card {
   line-height: 170%;
@@ -402,9 +505,19 @@ p {
   z-index: 2;
 }
 .page .analytics .content .description-analytics .title-analytics {
+  padding-bottom: 20px;
+}
+.page .analytics .content .description-analytics .title-analytics .first-part-title-analitycs {
   font-size: 30px;
   color: #fff;
-  padding-bottom: 20px;
+}
+.page .analytics .content .description-analytics .title-analytics .second-part-title-analitycs {
+  color: #01b1f8;
+  font-size: 30px;
+}
+.page .analytics .content .description-analytics .title-analytics .three-part-title-analitycs {
+  font-size: 30px;
+  color: #fff;
 }
 .page .analytics .content .description-analytics .text-analytics {
   color: #828fa2;
@@ -438,9 +551,16 @@ p {
   padding-top: 50px;
 }
 .page .presention-us-project .header-presention-us-project .title-presention-us-project {
+  padding-bottom: 20px;
+}
+.page .presention-us-project .header-presention-us-project .title-presention-us-project .first-title-presention-us-project {
   color: #fff;
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-right: 5px;
+}
+.page .presention-us-project .header-presention-us-project .title-presention-us-project .second-title-presention-us-project {
+  color: #01b1f8;
+  font-size: 30px;
 }
 .page .presention-us-project .header-presention-us-project .btn-view-portfolio {
   background-color: #01b1f8;
@@ -487,19 +607,35 @@ p {
   bottom: 0;
   z-index: 2;
 }
-.page .leader-areas .content .header-leader-areas .title-header-leader-areas {
+.page .leader-areas .content .header-leader-areas .first-title-header-leader-areas {
   font-size: 30px;
   color: #fff;
+  padding-right: 10px;
+}
+.page .leader-areas .content .header-leader-areas .second-title-header-leader-areas {
+  font-size: 30px;
+  color: #01b1f8;
+  padding-right: 10px;
+}
+.page .leader-areas .content .header-leader-areas .three-title-header-leader-areas {
+  font-size: 30px;
+  color: #fff;
+}
+.page .leader-areas .content .down-leader-areas .down-leader-areas-first {
+  display: flex;
+  justify-content: space-around;
+}
+.page .leader-areas .content .down-leader-areas .down-leader-areas-first img {
+  height: 90px;
+  max-width: 100%;
   padding-bottom: 50px;
 }
-.page .leader-areas .content .down-leader-areas {
+.page .leader-areas .content .down-leader-areas .down-leader-areas-second {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.page .leader-areas .content .down-leader-areas img {
+.page .leader-areas .content .down-leader-areas .down-leader-areas-second img {
   height: 90px;
-  padding-right: 150px;
   max-width: 100%;
   padding-bottom: 50px;
 }
@@ -520,7 +656,7 @@ p {
 .page .footer .main-info .text-main-info .first-text {
   line-height: 150%;
   font-size: 16px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   color: #67768d;
 }
 .page .footer .main-info .text-main-info .second-text {
@@ -591,14 +727,14 @@ p {
   font-size: 18px;
   color: #fff;
   font-weight: bold;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .page .footer .word-form .btn-form {
   background-color: #01b1f8;
   outline: none;
   border: 0;
-  padding: 10px 30px;
-  border-radius: 20px;
+  padding: 10px 50px;
+  border-radius: 5px;
   color: #fff;
   font-size: 20px;
   transition: all 0.3s ease;
@@ -610,7 +746,7 @@ p {
   transform: scale(0.95);
 }
 .page .footer .word-form .text-word-form {
-  padding-top: 20px;
+  padding-top: 30px;
   color: #67768d;
   font-size: 16px;
   line-height: 150%;
@@ -620,6 +756,9 @@ p {
   justify-content: space-between;
   width: 100%;
   padding-bottom: 20px;
+}
+.page .footer .down-footer .text-down-footer {
+  color: #828fa2;
 }
 .page .footer .down-footer .social-network-footer {
   display: flex;
