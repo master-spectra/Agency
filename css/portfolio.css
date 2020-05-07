@@ -186,7 +186,7 @@ p {
   position: absolute;
   top: 420px;
   bottom: 0;
-  left: 50%;
+  left: 45%;
   right: 0;
   z-index: 5;
 }
@@ -219,6 +219,8 @@ p {
 .page .works-list .content .image-block .title-image-block {
   font-size: 20px;
   color: #fff;
+  padding-top: 20px;
+  padding-bottom: 7px;
   padding-left: 20px;
 }
 .page .works-list .content .image-block .text-block-image {
@@ -227,7 +229,7 @@ p {
   padding-bottom: 20px;
   color: #67768d;
 }
-.page .our-work {
+.our-work {
   background-image: url(../img/project-work-bg.jpg);
   background-position: center;
   background-size: cover;
@@ -235,7 +237,7 @@ p {
   padding: 200px 0;
   background-repeat: no-repeat;
 }
-.page .our-work .bg-dark {
+.our-work .bg-dark {
   background: rgba(29, 39, 51, 0.7);
   position: absolute;
   top: 0;
@@ -243,21 +245,21 @@ p {
   right: 0;
   left: 0;
 }
-.page .our-work .content {
+.our-work .content {
   position: absolute;
   padding-left: 300px;
   z-index: 5;
 }
-.page .our-work .content .title-our-work {
+.our-work .content .title-our-work {
   font-size: 30px;
   padding-bottom: 20px;
   color: #fff;
 }
-.page .our-work .content .container-btn-our-work {
+.our-work .content .container-btn-our-work {
   padding-left: 275px;
   padding-top: 20px;
 }
-.page .our-work .content .container-btn-our-work .btn-our-work {
+.our-work .content .container-btn-our-work .btn-our-work {
   display: block;
   background: #01b1f8;
   outline: none;
@@ -268,9 +270,9 @@ p {
   transition: all 0.3s ease;
   border-radius: 5px;
 }
-.page .our-work .content .container-btn-our-work .btn-our-work:hover {
+.our-work .content .container-btn-our-work .btn-our-work:hover {
   background: #0d749c;
 }
-.page .our-work .content .container-btn-our-work .btn-our-work:active {
+.our-work .content .container-btn-our-work .btn-our-work:active {
   transform: scale(0.95);
 }

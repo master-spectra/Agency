@@ -220,7 +220,7 @@ p {
             position: absolute;
             top: 420px;
             bottom: 0;
-            left: 50%;
+            left: 45%;
             right: 0;
             z-index: 5;
 
@@ -247,88 +247,90 @@ p {
 
     .works-list {
         .content {
-            .image-block {  
+            .image-block {
 
                 img {
                     width: 380px;
                     filter: brightness(80%);
                     transition: all 0.3s ease;
                     padding-top: 10px;
-    
+
                     &:hover {
                         padding-top: 0;
                         filter: brightness(100%);
                     }
-                 }
-     
-                 .title-image-block {
-                     font-size: 20px;
-                     color: #fff;
-                     padding-left: 20px;
-                 }
-     
-                 .text-block-image {
-                     font-size: 16px;
-                     padding-left: 20px;
-                     padding-bottom: 20px;
-                     color: #67768d;
-                 }
-             }
+                }
+
+                .title-image-block {
+                    font-size: 20px;
+                    color: #fff;
+                    padding-top: 20px;
+                    padding-bottom: 7px;
+                    padding-left: 20px;
+                }
+
+                .text-block-image {
+                    font-size: 16px;
+                    padding-left: 20px;
+                    padding-bottom: 20px;
+                    color: #67768d;
+                }
+            }
         }
-        
     }
 
-    .our-work {
-        background-image: url(../img/project-work-bg.jpg);
-        background-position: center;
-        background-size: cover;
-        position: relative;
-        padding: 200px 0;
-        background-repeat: no-repeat;
+}
 
-        .bg-dark {
-            background: rgba(29, 39, 51, 0.7);
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
+.our-work {
+    background-image: url(../img/project-work-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+
+    .bg-dark {
+        background: rgba(29, 39, 51, 0.7);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .content {
+        position: absolute;
+        padding-left: 300px;
+        z-index: 5;
+
+        .title-our-work {
+            font-size: 30px;
+            padding-bottom: 20px;
+            color: #fff;
         }
 
-        .content {
-            position: absolute;
-            padding-left: 300px;
-            z-index: 5;
-            
-            .title-our-work {
-                font-size: 30px;
-                padding-bottom: 20px;
+        .container-btn-our-work {
+            padding-left: 275px;
+            padding-top: 20px;
+
+            .btn-our-work {
+                display: block;
+                background: #01b1f8;
+                outline: none;
+                border: 0;
+                cursor: pointer;
+                padding: 15px 40px;
                 color: #fff;
-            }
+                transition: all 0.3s ease;
+                border-radius: 5px;
 
-            .container-btn-our-work {
-                padding-left: 275px;
-                padding-top: 20px;
+                &:hover {
+                    background: #0d749c;
 
-                .btn-our-work {
-                    display: block;
-                    background: #01b1f8;
-                    outline: none;
-                    border: 0;
-                    cursor: pointer;
-                    padding: 15px 40px;
-                    color: #fff;
-                    transition: all 0.3s ease;
-                    border-radius: 5px;
+                }
 
-                    &:hover {
-                        background: #0d749c;
-
-                    }
-
-                    &:active {
-                        transform: scale(0.95);
-                    }
+                &:active {
+                    transform: scale(0.95);
                 }
             }
         }

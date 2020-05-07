@@ -43,11 +43,11 @@ p {
 .page {
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 105vh;
 }
 .page .left-bar {
   position: relative;
-  padding: 0px 605px 0px 80px;
+  padding: 0px 605px 200px 80px;
   background-image: url(../img/build.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -156,7 +156,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .about .container-about {
-  padding: 10px 0px 10px 10px;
+  padding: 20px 0px 20px 20px;
 }
 .page .right-bar .about .container-about .megaphone {
   color: #006cf8;
@@ -186,7 +186,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .list-client .container-list-client {
-  padding: 10px 0px 10px 10px;
+  padding: 20px 0px 20px 20px;
 }
 .page .right-bar .list-client .container-list-client .case {
   color: #006cf8;
@@ -216,7 +216,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .portfolio .container-portfoliot {
-  padding: 10px 0px 10px 10px;
+  padding: 20px 0px 20px 20px;
 }
 .page .right-bar .portfolio .container-portfoliot .tv {
   padding: 20px 20px 20px 20px;
@@ -246,7 +246,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .project .container-project {
-  padding: 10px 0px 10px 10px;
+  padding: 20px 0px 20px 20px;
 }
 .page .right-bar .project .container-project .camera {
   color: #006cf8;
@@ -276,7 +276,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .question-answer .container-question-answer {
-  padding: 10px 0px 10px 10px;
+  padding: 20px 0px 20px 20px;
 }
 .page .right-bar .question-answer .container-question-answer .glasses {
   padding: 20px 20px 20px 20px;
@@ -306,7 +306,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .contacts .container-contacts {
-  padding: 10px 0px 10px 10px;
+  padding: 20px 0px 20px 20px;
 }
 .page .right-bar .contacts .container-contacts .pin {
   color: #006cf8;
