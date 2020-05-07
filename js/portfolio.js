@@ -3,7 +3,7 @@ $('.page .slider .content-slider').slick({
     dots:true
 })
 
-$('.page .works-list').slick({
+$('.page .works-list .wrapper .content').slick({
     dots:true,
     arrows:false,
     slidesToShow: 3,
