@@ -363,6 +363,7 @@ p {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 .page .content .footer .down-footer .text-down-footer {
