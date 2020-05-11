@@ -77,7 +77,6 @@ p {
 .page .header .top-header {
   position: relative;
   z-index: 1;
-  padding-top: 50px;
 }
 .page .header .top-header .logo {
   display: inline-block;
@@ -98,9 +97,10 @@ p {
 }
 .page .header .top-header .menu ul li a {
   color: #fff;
-  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.7px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  padding-right: 20px;
 }
 .page .header .top-header .menu ul li a:hover {
   color: #32b4ff;
@@ -111,17 +111,30 @@ p {
   padding-right: 20px;
   padding-top: 20px;
 }
-.page .header .top-header .social-network .vk {
-  color: #fff;
-  font-size: 20px;
+.page .header .top-header .social-network .vk-icon {
+  color: #7d8da7;
+  font-size: 13px;
   text-decoration: none;
   padding-right: 20px;
   display: inline-block;
 }
-.page .header .top-header .social-network .dribble {
-  color: #fff;
-  font-size: 20px;
+.page .header .top-header .social-network .vk-icon .vk {
+  color: #7d8da7;
+  position: relative;
+  padding-left: 5px;
+  font-size: 13px;
+}
+.page .header .top-header .social-network .dribble-icon {
+  color: #7d8da7;
+  font-size: 13px;
   text-decoration: none;
+  display: inline-block;
+}
+.page .header .top-header .social-network .dribble-icon .dribble {
+  color: #7d8da7;
+  font-size: 13px;
+  text-decoration: none;
+  padding-right: 15px;
   display: inline-block;
 }
 .page .header .down-header {
@@ -140,41 +153,8 @@ p {
 .page .header .down-header .btn-down-header {
   padding-top: 20px;
 }
-.page .header .down-header .btn-down-header .presention .btn-presention {
-  background-color: #01b1f8;
-  outline: none;
-  border: 0;
-  padding: 10px 30px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 20px;
-  transition: all 0.3s ease;
-}
-.page .header .down-header .btn-down-header .presention .btn-presention:hover {
-  background-color: #0375a1;
-}
-.page .header .down-header .btn-down-header .presention .btn-presention:active {
-  transform: scale(0.95);
-}
 .page .header .down-header .btn-down-header .us-work {
   padding-left: 20px;
-}
-.page .header .down-header .btn-down-header .us-work .btn-us-work {
-  background: #19202a;
-  outline: none;
-  border: 0;
-  padding: 10px 35px;
-  border-radius: 5px;
-  cursor: pointer;
-  color: #fff;
-  font-size: 20px;
-  transition: all 0.3s ease;
-}
-.page .header .down-header .btn-down-header .us-work .btn-us-work:hover {
-  background-color: #0375a1;
-}
-.page .header .down-header .btn-down-header .us-work .btn-us-work:active {
-  transform: scale(0.95);
 }
 .page .directions {
   padding-bottom: 50px;
@@ -220,22 +200,6 @@ p {
 .page .directions .btn-directions {
   text-align: center;
   padding: 50px 0px;
-}
-.page .directions .btn-directions .btn-overlay .btn-directions-content {
-  background-color: #01b1f8;
-  outline: none;
-  border: 0;
-  padding: 10px 30px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 20px;
-  transition: all 0.3s ease;
-}
-.page .directions .btn-directions .btn-overlay .btn-directions-content:hover {
-  background-color: #0375a1;
-}
-.page .directions .btn-directions .btn-overlay .btn-directions-content:active {
-  transform: scale(0.95);
 }
 .page .strategy {
   background-color: #1d2733;
@@ -529,22 +493,6 @@ p {
   padding-left: 25%;
   padding-bottom: 20px;
 }
-.page .analytics .content .btn-analytics {
-  background-color: #01b1f8;
-  outline: none;
-  border: 0;
-  padding: 10px 30px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 15px;
-  transition: all 0.3s ease;
-}
-.page .analytics .content .btn-analytics:hover {
-  background-color: #0375a1;
-}
-.page .analytics .content .btn-analytics:active {
-  transform: scale(0.95);
-}
 .page .presention-us-project {
   padding: 50px 0px;
 }
@@ -563,22 +511,6 @@ p {
 .page .presention-us-project .header-presention-us-project .title-presention-us-project .second-title-presention-us-project {
   color: #01b1f8;
   font-size: 30px;
-}
-.page .presention-us-project .header-presention-us-project .btn-view-portfolio {
-  background-color: #01b1f8;
-  outline: none;
-  border: 0;
-  padding: 10px 30px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 15px;
-  transition: all 0.3s ease;
-}
-.page .presention-us-project .header-presention-us-project .btn-view-portfolio:hover {
-  background-color: #0375a1;
-}
-.page .presention-us-project .header-presention-us-project .btn-view-portfolio:active {
-  transform: scale(0.95);
 }
 .page .presention-us-project .img-presention-us-project {
   width: 100%;
@@ -640,148 +572,4 @@ p {
   height: 90px;
   max-width: 100%;
   padding-bottom: 50px;
-}
-.page .footer .content .top-footer {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 50px 0px 50px 0px;
-}
-.page .footer .content .top-footer .main-info {
-  width: 23%;
-}
-.page .footer .content .top-footer .main-info .title-main-info {
-  color: #fff;
-  padding-bottom: 20px;
-  width: 130px;
-  font-size: 20px;
-}
-.page .footer .content .top-footer .main-info .text-main-info .first-text {
-  line-height: 150%;
-  font-size: 16px;
-  padding-bottom: 20px;
-  color: #67768d;
-}
-.page .footer .content .top-footer .main-info .text-main-info .second-text {
-  line-height: 150%;
-  color: #67768d;
-  border-left: 3px solid #32b4ff;
-  font-size: 16px;
-  padding-left: 10px;
-}
-.page .footer .content .top-footer .page-nav {
-  width: 23%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.page .footer .content .top-footer .page-nav .title-page {
-  font-size: 20px;
-  font-weight: bold;
-  padding-right: 30px;
-  color: #fff;
-}
-.page .footer .content .top-footer .page-nav .menu {
-  padding-top: 20px;
-  padding-left: 50px;
-}
-.page .footer .content .top-footer .page-nav .menu li {
-  list-style: outside;
-  color: #838e9e;
-  padding-bottom: 10px;
-}
-.page .footer .content .top-footer .page-nav .menu li a {
-  text-decoration: none;
-  color: #67768d;
-  transition: all 0.3s ease;
-}
-.page .footer .content .top-footer .page-nav .menu li a:hover {
-  color: #32b4ff;
-}
-.page .footer .content .top-footer .info {
-  width: 23%;
-}
-.page .footer .content .top-footer .info .title-info {
-  font-size: 20px;
-  font-weight: bold;
-  color: #fff;
-  padding-bottom: 20px;
-}
-.page .footer .content .top-footer .info ul {
-  padding-left: 20px;
-}
-.page .footer .content .top-footer .info ul li {
-  list-style: outside;
-  padding-bottom: 20px;
-  color: #838e9e;
-}
-.page .footer .content .top-footer .info ul li a {
-  text-decoration: none;
-  color: #67768d;
-  transition: all 0.3s ease;
-}
-.page .footer .content .top-footer .info ul li a:hover {
-  color: #32b4ff;
-}
-.page .footer .content .top-footer .word-form {
-  width: 23%;
-}
-.page .footer .content .top-footer .word-form .title-word-form {
-  font-size: 18px;
-  color: #fff;
-  font-weight: bold;
-  padding-bottom: 30px;
-}
-.page .footer .content .top-footer .word-form .btn-form {
-  background-color: #01b1f8;
-  outline: none;
-  border: 0;
-  padding: 10px 50px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 20px;
-  transition: all 0.3s ease;
-}
-.page .footer .content .top-footer .word-form .btn-form:hover {
-  background-color: #0375a1;
-}
-.page .footer .content .top-footer .word-form .btn-form:active {
-  transform: scale(0.95);
-}
-.page .footer .content .top-footer .word-form .text-word-form {
-  padding-top: 30px;
-  color: #67768d;
-  font-size: 16px;
-  line-height: 150%;
-}
-.page .footer .content .down-footer {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding-bottom: 20px;
-}
-.page .footer .content .down-footer .text-down-footer {
-  color: #828fa2;
-}
-.page .footer .content .down-footer .social-network-footer {
-  display: flex;
-}
-.page .footer .content .down-footer .social-network-footer .vk-footer {
-  display: flex;
-  text-decoration: none;
-  padding-right: 20px;
-  color: #67768d;
-}
-.page .footer .content .down-footer .social-network-footer .vk-footer .vk-name-footer {
-  color: #67768d;
-  padding-left: 20px;
-}
-.page .footer .content .down-footer .social-network-footer .dribble-footer {
-  display: flex;
-  text-decoration: none;
-  color: #67768d;
-}
-.page .footer .content .down-footer .social-network-footer .dribble-footer .dribble-name-footer {
-  color: #67768d;
-  padding-left: 20px;
 }

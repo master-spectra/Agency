@@ -1,4 +1,3 @@
-// out: ../css/client.css
 html,
 body {
     margin: 0;
@@ -33,133 +32,101 @@ p {
         .title-client {
             text-align: center;
             padding-bottom: 50px;
-            
+
             .title-standart-color {
                 color: #fff;
                 font-size: 30px;
                 font-weight: bold;
             }
 
-            .title-blue-color  {
+            .title-blue-color {
                 color: #01b1f8;
                 font-size: 30px;
                 font-weight: bold;
             }
         }
-        
+
         .small-academy-scenice {
-            display: flex;
-            justify-content: space-between;
-           
-            .description {
-                width: 30%;
-                align-self: center;
-                padding-left: 50px;
-
-                .title-description-academy {
-                    font-size: 25px;
-                    padding-bottom: 20px;
-                    color: #fff;
-                }
-               
-                .text-description-academy {
-                    line-height: 170%;
-                    color: #67768d;
-                    font-size: 16px;
-                    padding-bottom: 20px;
-                }
-            
-                .btn-description-academy {
-                    background-color: #01b1f8;
-                    outline: none;
-                    border: 0;
-                    padding: 10px 30px;
-                    border-radius: 5px;
-                    color: #fff;
-                    font-size: 20px;
-                    transition: all 0.3s ease;
-    
-                    &:hover {
-                        background-color: #0375a1;
-                    }
-    
-                    &:active {
-                        transform: scale(0.95);
-                    }
-                }    
-            }
-            
-            .img-description-academy {
-                width: 50%;
-                filter: brightness(80%);
-                transition: all 0.3s ease;
-
-                &:hover {
-                    filter: brightness(100%);
-                }
-            }
-        }
-        .ONPU {
-            display: flex;
             padding-bottom: 50px;
 
-            .img-onpu {
-                width: 50%;
-                filter: brightness(80%);
-                transition: all 0.3s ease;
+            .content {
+                display: flex;
+                justify-content: space-between;
 
-                &:hover {
-                    filter: brightness(100%);
-           
-                }          
-            }
-            .description-onpu {
-                align-self: center;
-                width: 30%;
-                padding-left: 100px;
-                .title-description-onpu {
-                    font-size: 25px;
-                    color: #fff;
-                    padding-bottom: 20px;
-                }
+                .description {
+                    width: 30%;
+                    align-self: center;
 
-                .text-description-onpu {
-                    line-height: 170%;
-                    color: #67768d;
-                    font-size: 16px;
-                    padding-bottom: 20px;
-                }
-                
-                .btn-description-onpu {
-                    background-color: #01b1f8;
-                    outline: none;
-                    border: 0;
-                    padding: 10px 30px;
-                    border-radius: 5px;
-                    color: #fff;
-                    font-size: 20px;
-                    transition: all 0.3s ease;
-    
-                    &:hover {
-                        background-color: #0375a1;
+                    .title-description-academy {
+                        font-size: 20px;
+                        padding-bottom: 20px;
+                        color: #fff;
                     }
-    
-                    &:active {
-                        transform: scale(0.95);
+
+                    .text-description-academy {
+                        line-height: 170%;
+                        color: #67768d;
+                        padding-bottom: 20px;
+                    }
+                }
+
+                .img-description-academy {
+                    width: 50%;
+                    filter: brightness(80%);
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        filter: brightness(100%);
+                    }
+                }
+            }
+        }
+
+        .ONPU {
+            padding-bottom: 50px;
+            .content {
+                display: flex;
+                justify-content: space-between;
+
+                .img-onpu {
+                    width: 50%;
+                    filter: brightness(80%);
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        filter: brightness(100%);
+
+                    }
+                }
+
+                .description-onpu {
+                    align-self: center;
+                    width: 30%;
+
+                    .title-description-onpu {
+                        font-size: 20px;
+                        color: #fff;
+                        padding-bottom: 20px;
+                    }
+
+                    .text-description-onpu {
+                        line-height: 170%;
+                        color: #67768d;
+                        padding-bottom: 20px;
                     }
                 }
             }
 
         }
-        
+
         .view-portfolio {
-            
+
             background-image: url(../img/project-work-bg.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
-            
+
             .bg-blue {
                 position: absolute;
                 top: 0;
@@ -169,11 +136,11 @@ p {
                 opacity: 0.8;
                 right: 0;
             }
-            
+
             .content-view-portfolio {
                 padding: 200px 0px;
                 text-align: center;
-                position:  relative;
+                position: relative;
                 bottom: 0;
                 top: 0;
                 left: 0;
@@ -182,30 +149,10 @@ p {
                 .title-view-portfolio {
                     color: #fff;
                     font-size: 30px;
-                    padding-bottom: 20px;
-                }
-                
-                .btn-view-portfolio {
-                    background-color: #01b1f8;
-                    outline: none;
-                    border: 0;
-                    padding: 10px 30px;
-                    border-radius: 5px;
-                    color: #fff;
-                    font-size: 20px;
-                    transition: all 0.3s ease;
-    
-                    &:hover {
-                        background-color: #0375a1;
-                    }
-    
-                    &:active {
-                        transform: scale(0.95);
-                    }
+                    padding-bottom: 50px;
                 }
             }
         }
-   
+
     }
 }
-

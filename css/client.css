@@ -41,92 +41,62 @@ p {
   font-weight: bold;
 }
 .page .client .small-academy-scenice {
+  padding-bottom: 50px;
+}
+.page .client .small-academy-scenice .content {
   display: flex;
   justify-content: space-between;
 }
-.page .client .small-academy-scenice .description {
+.page .client .small-academy-scenice .content .description {
   width: 30%;
   align-self: center;
-  padding-left: 50px;
 }
-.page .client .small-academy-scenice .description .title-description-academy {
-  font-size: 25px;
+.page .client .small-academy-scenice .content .description .title-description-academy {
+  font-size: 20px;
   padding-bottom: 20px;
   color: #fff;
 }
-.page .client .small-academy-scenice .description .text-description-academy {
+.page .client .small-academy-scenice .content .description .text-description-academy {
   line-height: 170%;
   color: #67768d;
-  font-size: 16px;
   padding-bottom: 20px;
 }
-.page .client .small-academy-scenice .description .btn-description-academy {
-  background-color: #01b1f8;
-  outline: none;
-  border: 0;
-  padding: 10px 30px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 20px;
-  transition: all 0.3s ease;
-}
-.page .client .small-academy-scenice .description .btn-description-academy:hover {
-  background-color: #0375a1;
-}
-.page .client .small-academy-scenice .description .btn-description-academy:active {
-  transform: scale(0.95);
-}
-.page .client .small-academy-scenice .img-description-academy {
+.page .client .small-academy-scenice .content .img-description-academy {
   width: 50%;
   filter: brightness(80%);
   transition: all 0.3s ease;
 }
-.page .client .small-academy-scenice .img-description-academy:hover {
+.page .client .small-academy-scenice .content .img-description-academy:hover {
   filter: brightness(100%);
 }
 .page .client .ONPU {
-  display: flex;
   padding-bottom: 50px;
 }
-.page .client .ONPU .img-onpu {
+.page .client .ONPU .content {
+  display: flex;
+  justify-content: space-between;
+}
+.page .client .ONPU .content .img-onpu {
   width: 50%;
   filter: brightness(80%);
   transition: all 0.3s ease;
 }
-.page .client .ONPU .img-onpu:hover {
+.page .client .ONPU .content .img-onpu:hover {
   filter: brightness(100%);
 }
-.page .client .ONPU .description-onpu {
+.page .client .ONPU .content .description-onpu {
   align-self: center;
   width: 30%;
-  padding-left: 100px;
 }
-.page .client .ONPU .description-onpu .title-description-onpu {
-  font-size: 25px;
+.page .client .ONPU .content .description-onpu .title-description-onpu {
+  font-size: 20px;
   color: #fff;
   padding-bottom: 20px;
 }
-.page .client .ONPU .description-onpu .text-description-onpu {
+.page .client .ONPU .content .description-onpu .text-description-onpu {
   line-height: 170%;
   color: #67768d;
-  font-size: 16px;
   padding-bottom: 20px;
-}
-.page .client .ONPU .description-onpu .btn-description-onpu {
-  background-color: #01b1f8;
-  outline: none;
-  border: 0;
-  padding: 10px 30px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 20px;
-  transition: all 0.3s ease;
-}
-.page .client .ONPU .description-onpu .btn-description-onpu:hover {
-  background-color: #0375a1;
-}
-.page .client .ONPU .description-onpu .btn-description-onpu:active {
-  transform: scale(0.95);
 }
 .page .client .view-portfolio {
   background-image: url(../img/project-work-bg.jpg);
@@ -156,21 +126,5 @@ p {
 .page .client .view-portfolio .content-view-portfolio .title-view-portfolio {
   color: #fff;
   font-size: 30px;
-  padding-bottom: 20px;
-}
-.page .client .view-portfolio .content-view-portfolio .btn-view-portfolio {
-  background-color: #01b1f8;
-  outline: none;
-  border: 0;
-  padding: 10px 30px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 20px;
-  transition: all 0.3s ease;
-}
-.page .client .view-portfolio .content-view-portfolio .btn-view-portfolio:hover {
-  background-color: #0375a1;
-}
-.page .client .view-portfolio .content-view-portfolio .btn-view-portfolio:active {
-  transform: scale(0.95);
+  padding-bottom: 50px;
 }

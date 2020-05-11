@@ -114,26 +114,23 @@ p {
   padding: 160px 0px 0px 0px;
   display: flex;
 }
-.page .left-bar .conteiner .social-network .vk {
+.page .left-bar .conteiner .social-network .vk-icon {
   color: #577ca4;
   text-decoration: none;
   padding-right: 20px;
-  display: flex;
 }
-.page .left-bar .conteiner .social-network .vk span {
-  padding-left: 20px;
+.page .left-bar .conteiner .social-network .vk {
   font-size: 13px;
-  font-weight: 500;
+  color: #577ca4;
 }
-.page .left-bar .conteiner .social-network .dribble {
+.page .left-bar .conteiner .social-network .dribble-icon {
   color: #ea4c89;
   text-decoration: none;
-  padding-left: 20px;
-  display: flex;
+  padding: 0px 20px;
 }
-.page .left-bar .conteiner .social-network .dribble .db {
+.page .left-bar .conteiner .social-network .db {
   color: #577ca4;
-  padding-left: 20px;
+  font-size: 13px;
 }
 .page .right-bar {
   display: flex;

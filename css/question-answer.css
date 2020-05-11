@@ -109,19 +109,3 @@ p {
   font-size: 30px;
   padding-bottom: 20px;
 }
-.page .view-portfolio .content-view-portfolio .btn-view-portfolio {
-  background-color: #01b1f8;
-  outline: none;
-  border: 0;
-  padding: 10px 30px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 20px;
-  transition: all 0.3s ease;
-}
-.page .view-portfolio .content-view-portfolio .btn-view-portfolio:hover {
-  background-color: #0375a1;
-}
-.page .view-portfolio .content-view-portfolio .btn-view-portfolio:active {
-  transform: scale(0.95);
-}
