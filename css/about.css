@@ -541,6 +541,9 @@ p {
   bottom: 0;
   z-index: 2;
 }
+.page .leader-areas .content .header-leader-areas {
+  padding-bottom: 80px;
+}
 .page .leader-areas .content .header-leader-areas .first-title-header-leader-areas {
   font-size: 30px;
   color: #fff;
