@@ -123,39 +123,36 @@ p {
         }
 
         .view-portfolio {
-
             background-image: url(../img/project-work-bg.jpg);
             background-position: center;
-            background-repeat: no-repeat;
             background-size: cover;
             position: relative;
+            padding: 200px 0;
+            background-repeat: no-repeat;
 
             .bg-blue {
+                background: rgba(29, 39, 51, 0.7);
                 position: absolute;
                 top: 0;
                 bottom: 0;
-                background-color: #19222c;
-                left: 0;
-                opacity: 0.8;
                 right: 0;
+                left: 0;
             }
 
             .content-view-portfolio {
-                padding: 200px 0px;
-                text-align: center;
                 position: relative;
-                bottom: 0;
-                top: 0;
-                left: 0;
-                right: 0;
+                z-index: 5;
+                text-align: center;
 
                 .title-view-portfolio {
-                    color: #fff;
                     font-size: 30px;
-                    padding-bottom: 50px;
+                    color: #fff;
+                }
+
+                .all-button {
+                    margin-top: 40px;
                 }
             }
         }
-
     }
 }

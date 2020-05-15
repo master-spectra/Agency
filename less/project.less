@@ -34,7 +34,7 @@ p {
 
         .title-company {
             padding: 50px 0px 80px 0px;
-            text-align: center;
+            text-align: center; 
 
             .title {
                 .blue-text {
@@ -47,24 +47,26 @@ p {
 
                 .text {
                     font-size: 40px;
-                    color: #fff;
                     text-transform: uppercase;
-                }
-            }
-
-            .text-title-visualizer {
-                padding-left: 250px;
-                font-size: 18px;
-                opacity: 0.4;
-                color: #fff;
+                    color: #fff;
+                } 
             }
         }
+
+        .text-title-visualizer {
+            padding-left: 250px;
+            font-size: 18px;
+            opacity: 0.4;
+            color: #fff;
+        }
+    
 
         .visualizer {
             padding-bottom: 50px;
 
             .three-d-visualizer {
                 display: flex;
+                justify-content: space-between;
 
                 img {
                     background-position: center;
@@ -82,7 +84,6 @@ p {
                 .desciption {
                     width: 30%;
                     align-self: center;
-                    padding-left: 200px;
 
                     .title-3d-visualizer {
                         padding-bottom: 20px;
@@ -106,117 +107,97 @@ p {
                         padding-bottom: 20px;
                     }
 
-                    .btn-3d-visualizer {
+                    .all-button {
                         background: #2ecc71;
-                        outline: none;
-                        border: 0;
-                        cursor: pointer;
-                        padding: 15px 60px;
-                        color: #fff;
-                        font-size: 13px;
-                        transition: all 0.3s ease;
-                        border-radius: 5px;
-
-                        &:hover {
-                            background: #207744;
-
-                        }
-
-                        &:active {
-                            transform: scale(0.95);
-                        }
                     }
                 }
-
             }
         }
-
-
+    
 
         .web-development-courses {
-            display: flex;
-            padding-bottom: 50px;
-            justify-content: space-between;
-            position: relative;
+            .content {
+                display: flex;
+                padding-bottom: 50px;
+                justify-content: space-between;
 
+                .description-web-development-courses {
+                    align-self: center;
+                    width: 30%;
 
+                    .title-description-web-development-courses {
+                        .title-web-development-courses {
+                            font-size: 30px;
+                            color: #fff;
+                        }
 
-            .description-web-development-courses {
-                align-self: center;
-                width: 30%;
-                padding-left: 200px;
-
-                .title-description-web-development-courses {
-                    .title-web-development-courses {
-                        font-size: 30px;
-                        color: #fff;
+                        .title-part-two-web-development-courses {
+                            color: #01b1f8;
+                            font-size: 30px;
+                        }
                     }
 
-                    .title-part-two-web-development-courses {
-                        color: #01b1f8;
-                        font-size: 30px;
+                    .text-web-development-courses {
+                        line-height: 170%;
+                        font-size: 16px;
+                        color: #9aaaba;
+                        padding: 20px 0px;
                     }
                 }
 
-                .text-web-development-courses {
-                    line-height: 170%;
-                    font-size: 16px;
-                    color: #9aaaba;
-                    padding: 20px 0px;
-                }
-            }
+                .img-web-development-courses {
+                    width: 50%;
+                    transition: all 0.3s ease;
+                    border-radius: 5px;
+                    filter: brightness(80%);
 
-            .img-web-development-courses {
-                width: 50%;
-                transition: all 0.3s ease;
-                border-radius: 5px;
-                filter: brightness(80%);
-
-                &:hover {
-                    filter: brightness(100%);
+                    &:hover {
+                        filter: brightness(100%);
+                    }
                 }
-            }
+            }      
         }
 
         .ui-library {
-            display: flex;
-            justify-content: space-between;
-            padding-bottom: 80px;
+            .content {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 80px;
 
-            .img-library {
-                width: 50%;
-                transition: all 0.3s ease;
-                border-radius: 5px;
-                filter: brightness(80%);
-                border-radius: 5px;
+                .img-library {
+                    width: 50%;
+                    transition: all 0.3s ease;
+                    border-radius: 5px;
+                    filter: brightness(80%);
+                    border-radius: 5px;
 
-                &:hover {
-                    filter: brightness(100%);
+                    &:hover {
+                        filter: brightness(100%);
+                    }
                 }
-            }
 
-            .describtion-ui-library {
-                width: 30%;
-                padding-right: 150px;
-                padding-top: 20px;
+                .describtion-ui-library {
+                    width: 30%;
+                    padding-top: 20px;
 
-                .blue-title-ui-library {
-                    color: #01b1f8;
-                    font-size: 30px;
-                    text-transform: uppercase;
+                    .blue-title-ui-library {
+                        color: #01b1f8;
+                        font-size: 30px;
+                        text-transform: uppercase;
                     }
 
-                .title-ui-library {
-                    font-size: 30px;
-                    text-transform: uppercase;
-                    color: #fff;
-                }
+                    .title-ui-library {
+                        font-size: 30px;
+                        text-transform: uppercase;
+                        color: #fff;
+                    }
 
-                .text-ui-library {
-                    line-height: 170%;
-                    font-size: 16px;
-                    color: #9aaaba;
-                    padding: 20px 0px;
+                    .text-ui-library {
+                        line-height: 170%;
+                        font-size: 16px;
+                        color: #9aaaba;
+                        padding: 20px 0px;
+                    }
                 }
             }
         }
@@ -239,22 +220,19 @@ p {
             }
 
             .content {
-                position: absolute;
-                padding-left: 30%;
-                width: 40%;
+                position: relative;
+                z-index: 5;
+                text-align: center;
 
                 .title-our-work {
-                    font-size: 30px;
-                    padding-bottom: 20px;
+                   font-size: 30px;
                     color: #fff;
                 }
 
                 .container-btn-our-work {
-                    padding-top: 20px;
-                    text-align: center;
+                    margin-top: 40px;
                 }
             }
         }
-
     }
 }

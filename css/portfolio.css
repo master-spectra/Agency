@@ -242,7 +242,7 @@ p {
   padding-bottom: 20px;
   color: #67768d;
 }
-.our-work {
+.page .our-work {
   background-image: url(../img/project-work-bg.jpg);
   background-position: center;
   background-size: cover;
@@ -250,7 +250,7 @@ p {
   padding: 200px 0;
   background-repeat: no-repeat;
 }
-.our-work .bg-dark {
+.page .our-work .bg-dark {
   background: rgba(29, 39, 51, 0.7);
   position: absolute;
   top: 0;
@@ -258,17 +258,15 @@ p {
   right: 0;
   left: 0;
 }
-.our-work .content {
-  position: absolute;
-  padding-left: 300px;
+.page .our-work .content {
+  position: relative;
   z-index: 5;
+  text-align: center;
 }
-.our-work .content .title-our-work {
+.page .our-work .content .title-our-work {
   font-size: 30px;
-  padding-bottom: 20px;
   color: #fff;
 }
-.our-work .content .container-btn-our-work {
-  padding-left: 275px;
-  padding-top: 20px;
+.page .our-work .content .container-btn-our-work {
+  margin-top: 40px;
 }
