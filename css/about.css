@@ -189,7 +189,7 @@ p {
 }
 .page .directions .cards .card .title-card {
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   padding: 20px 0px;
 }
 .page .directions .cards .card .text-card {
@@ -211,6 +211,7 @@ p {
 .page .strategy .content-strategy .description-strategy {
   padding-top: 100px;
   position: relative;
+  padding-left: 20px;
 }
 .page .strategy .content-strategy .description-strategy .vertical-title-strategy {
   color: #828fa2;
@@ -260,6 +261,7 @@ p {
 }
 .page .ux-design .content-ux-design .description-ux-design {
   padding-top: 100px;
+  padding-left: 20px;
   position: relative;
 }
 .page .ux-design .content-ux-design .description-ux-design .title-ux-design {
@@ -310,6 +312,7 @@ p {
 }
 .page .technologies .content-technologies .description-technologies {
   padding: 50px 0px;
+  padding-left: 20px;
 }
 .page .technologies .content-technologies .description-technologies .title-description-technologies {
   padding-bottom: 20px;
@@ -361,7 +364,6 @@ p {
 }
 .page .service-section .content .first-description .title-first-description {
   font-size: 25px;
-  padding-bottom: 20px;
   color: #828fa2;
 }
 .page .service-section .content .first-description .title-second-description .default-color {
@@ -372,6 +374,9 @@ p {
 .page .service-section .content .first-description .title-second-description .special-color {
   color: #01b1f8;
   font-size: 30px;
+}
+.page .service-section .content .first-description .title-general {
+  padding-bottom: 20px;
 }
 .page .service-section .content .first-description .text-service {
   color: #828fa2;
@@ -386,7 +391,7 @@ p {
 }
 .page .project-about .title-project-about {
   text-align: center;
-  padding: 100px 0px 20px 0px;
+  padding: 100px 0px 50px 0px;
 }
 .page .project-about .title-project-about .first-title-project-about {
   font-size: 25px;
@@ -409,6 +414,7 @@ p {
 }
 .page .project-about .content .card .description-card {
   text-align: center;
+  padding: 0px 20px;
 }
 .page .project-about .content .card .description-card .title-card {
   padding: 20px 0px;
@@ -471,7 +477,7 @@ p {
   z-index: 2;
 }
 .page .analytics .content .description-analytics .title-analytics {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .page .analytics .content .description-analytics .title-analytics .first-part-title-analitycs {
   font-size: 30px;
@@ -491,7 +497,7 @@ p {
   line-height: 170%;
   width: 50%;
   padding-left: 25%;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .page .presention-us-project {
   padding: 50px 0px;
@@ -501,7 +507,7 @@ p {
   padding-top: 50px;
 }
 .page .presention-us-project .header-presention-us-project .title-presention-us-project {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .page .presention-us-project .header-presention-us-project .title-presention-us-project .first-title-presention-us-project {
   color: #fff;
@@ -514,6 +520,7 @@ p {
 }
 .page .presention-us-project .img-presention-us-project {
   width: 100%;
+  padding-top: 40px;
 }
 .page .leader-areas {
   background-image: url(../img/services.jpeg);

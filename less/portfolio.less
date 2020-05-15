@@ -31,6 +31,7 @@ p {
 
     .slider {
         position: relative;
+        padding-top: 50px;
 
         .content-slider {
             display: flex;
@@ -218,7 +219,7 @@ p {
 
         .btn-slider {
             position: absolute;
-            top: 420px;
+            top: 470px;
             bottom: 0;
             left: 47%;
             right: 0;
@@ -227,9 +228,37 @@ p {
     }
 
     .works-list {
-        .content {
-            .image-block {
+        background-color: #0e0f14;
+        padding: 50px 0px;
+        text-align: center;
 
+        .header-work-list {
+            background-color: #19202a;
+            border-radius: 20px;
+            display:inline-block;
+
+            .general-button-work-list {
+                outline: none;
+                border: 0;
+                padding: 20px 30px;
+                background-color: rgba(0,0,0,0);
+                border-radius: 500px;
+                color: #fff;
+                box-sizing: border-box;
+                font-size: 14px;
+                transition: all 0.3s ease;
+
+                &:active {
+                    transform: scale(0.95);
+                    background-color: #01b1f8;
+                }
+            }
+        }
+
+        .content {
+            padding-top: 50px;
+
+            .image-block {
                 img {
                     width: 380px;
                     filter: brightness(80%);

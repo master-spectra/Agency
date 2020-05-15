@@ -28,6 +28,7 @@ p {
 }
 .page .slider {
   position: relative;
+  padding-top: 50px;
 }
 .page .slider .content-slider {
   display: flex;
@@ -184,11 +185,39 @@ p {
 }
 .page .slider .btn-slider {
   position: absolute;
-  top: 420px;
+  top: 470px;
   bottom: 0;
   left: 47%;
   right: 0;
   z-index: 5;
+}
+.page .works-list {
+  background-color: #0e0f14;
+  padding: 50px 0px;
+  text-align: center;
+}
+.page .works-list .header-work-list {
+  background-color: #19202a;
+  border-radius: 20px;
+  display: inline-block;
+}
+.page .works-list .header-work-list .general-button-work-list {
+  outline: none;
+  border: 0;
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 500px;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.page .works-list .header-work-list .general-button-work-list:active {
+  transform: scale(0.95);
+  background-color: #01b1f8;
+}
+.page .works-list .content {
+  padding-top: 50px;
 }
 .page .works-list .content .image-block img {
   width: 380px;

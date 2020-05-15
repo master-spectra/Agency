@@ -43,7 +43,7 @@ p {
 .page {
   display: flex;
   width: 100%;
-  height: 105vh;
+  height: 100vh;
 }
 .page .left-bar {
   position: relative;
@@ -66,7 +66,7 @@ p {
 }
 .page .left-bar .conteiner .title {
   width: 200px;
-  padding-top: 20px;
+  padding-top: 19px;
 }
 .page .left-bar .conteiner .title .first-title {
   font-size: 15px;
@@ -120,7 +120,9 @@ p {
   padding-right: 20px;
 }
 .page .left-bar .conteiner .social-network .vk {
-  font-size: 13px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
   color: #577ca4;
 }
 .page .left-bar .conteiner .social-network .dribble-icon {
@@ -129,8 +131,10 @@ p {
   padding: 0px 20px;
 }
 .page .left-bar .conteiner .social-network .db {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
   color: #577ca4;
-  font-size: 13px;
 }
 .page .right-bar {
   display: flex;
@@ -153,7 +157,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .about .container-about {
-  padding: 20px 0px 20px 20px;
+  padding: 25px 0px 10px 20px;
 }
 .page .right-bar .about .container-about .megaphone {
   color: #006cf8;
@@ -162,7 +166,7 @@ p {
 }
 .page .right-bar .about .container-about .text-about {
   color: #fff;
-  padding-top: 65px;
+  padding-top: 60px;
   font-size: 15px;
   padding-left: 20px;
   letter-spacing: 1.5px;
@@ -183,7 +187,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .list-client .container-list-client {
-  padding: 20px 0px 20px 20px;
+  padding: 25px 0px 10px 20px;
 }
 .page .right-bar .list-client .container-list-client .case {
   color: #006cf8;
@@ -192,7 +196,7 @@ p {
 }
 .page .right-bar .list-client .container-list-client .text-client {
   color: #fff;
-  padding-top: 65px;
+  padding-top: 60px;
   font-size: 15px;
   padding-left: 20px;
   letter-spacing: 1.5px;
@@ -213,7 +217,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .portfolio .container-portfoliot {
-  padding: 20px 0px 20px 20px;
+  padding: 25px 0px 10px 20px;
 }
 .page .right-bar .portfolio .container-portfoliot .tv {
   padding: 20px 20px 20px 20px;
@@ -222,7 +226,7 @@ p {
 }
 .page .right-bar .portfolio .container-portfoliot .text-portfolio {
   color: #fff;
-  padding-top: 65px;
+  padding-top: 60px;
   font-size: 15px;
   padding-left: 20px;
   letter-spacing: 1.5px;
@@ -243,7 +247,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .project .container-project {
-  padding: 20px 0px 20px 20px;
+  padding: 25px 0px 10px 20px;
 }
 .page .right-bar .project .container-project .camera {
   color: #006cf8;
@@ -252,7 +256,7 @@ p {
 }
 .page .right-bar .project .container-project .text-project {
   color: #fff;
-  padding-top: 65px;
+  padding-top: 60px;
   font-size: 15px;
   padding-left: 20px;
   letter-spacing: 1.5px;
@@ -273,7 +277,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .question-answer .container-question-answer {
-  padding: 20px 0px 20px 20px;
+  padding: 25px 0px 10px 20px;
 }
 .page .right-bar .question-answer .container-question-answer .glasses {
   padding: 20px 20px 20px 20px;
@@ -282,7 +286,7 @@ p {
 }
 .page .right-bar .question-answer .container-question-answer .text-answer {
   color: #fff;
-  padding-top: 65px;
+  padding-top: 60px;
   font-size: 15px;
   padding-left: 20px;
   letter-spacing: 1.5px;
@@ -303,7 +307,7 @@ p {
   justify-content: space-between;
 }
 .page .right-bar .contacts .container-contacts {
-  padding: 20px 0px 20px 20px;
+  padding: 25px 0px 10px 20px;
 }
 .page .right-bar .contacts .container-contacts .pin {
   color: #006cf8;
@@ -312,7 +316,7 @@ p {
 }
 .page .right-bar .contacts .container-contacts .text-contacts {
   color: #fff;
-  padding-top: 65px;
+  padding-top: 60px;
   font-size: 15px;
   padding-left: 20px;
   letter-spacing: 1.5px;
