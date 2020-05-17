@@ -137,12 +137,14 @@ p {
   color: #577ca4;
 }
 .page .right-bar {
-  display: flex;
-  flex-wrap: wrap;
   width: 55%;
   background: #1d2733;
 }
-.page .right-bar .about {
+.page .right-bar .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page .right-bar .content .about {
   text-decoration: none;
   padding: 0px 10px;
   background: #19202a;
@@ -156,15 +158,15 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.page .right-bar .about .container-about {
-  padding: 25px 0px 10px 20px;
+.page .right-bar .content .about .container-about {
+  padding: 25px 0px 16px 20px;
 }
-.page .right-bar .about .container-about .megaphone {
+.page .right-bar .content .about .container-about .megaphone {
   color: #006cf8;
   font-size: 40px;
   padding: 20px 20px 20px 20px;
 }
-.page .right-bar .about .container-about .text-about {
+.page .right-bar .content .about .container-about .text-about {
   color: #fff;
   padding-top: 60px;
   font-size: 15px;
@@ -172,7 +174,7 @@ p {
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
-.page .right-bar .list-client {
+.page .right-bar .content .list-client {
   text-decoration: none;
   padding: 0px 10px;
   background: #19202a;
@@ -186,15 +188,15 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.page .right-bar .list-client .container-list-client {
-  padding: 25px 0px 10px 20px;
+.page .right-bar .content .list-client .container-list-client {
+  padding: 25px 0px 16px 20px;
 }
-.page .right-bar .list-client .container-list-client .case {
+.page .right-bar .content .list-client .container-list-client .case {
   color: #006cf8;
   font-size: 40px;
   padding: 20px 20px 20px 20px;
 }
-.page .right-bar .list-client .container-list-client .text-client {
+.page .right-bar .content .list-client .container-list-client .text-client {
   color: #fff;
   padding-top: 60px;
   font-size: 15px;
@@ -202,7 +204,7 @@ p {
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
-.page .right-bar .portfolio {
+.page .right-bar .content .portfolio {
   text-decoration: none;
   padding: 0px 10px;
   background: #19202a;
@@ -216,15 +218,15 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.page .right-bar .portfolio .container-portfoliot {
-  padding: 25px 0px 10px 20px;
+.page .right-bar .content .portfolio .container-portfoliot {
+  padding: 25px 0px 16px 20px;
 }
-.page .right-bar .portfolio .container-portfoliot .tv {
+.page .right-bar .content .portfolio .container-portfoliot .tv {
   padding: 20px 20px 20px 20px;
   color: #006cf8;
   font-size: 40px;
 }
-.page .right-bar .portfolio .container-portfoliot .text-portfolio {
+.page .right-bar .content .portfolio .container-portfoliot .text-portfolio {
   color: #fff;
   padding-top: 60px;
   font-size: 15px;
@@ -232,7 +234,7 @@ p {
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
-.page .right-bar .project {
+.page .right-bar .content .project {
   text-decoration: none;
   padding: 0px 10px;
   background: #19202a;
@@ -246,15 +248,15 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.page .right-bar .project .container-project {
-  padding: 25px 0px 10px 20px;
+.page .right-bar .content .project .container-project {
+  padding: 25px 0px 16px 20px;
 }
-.page .right-bar .project .container-project .camera {
+.page .right-bar .content .project .container-project .camera {
   color: #006cf8;
   font-size: 40px;
   padding: 20px 20px 20px 20px;
 }
-.page .right-bar .project .container-project .text-project {
+.page .right-bar .content .project .container-project .text-project {
   color: #fff;
   padding-top: 60px;
   font-size: 15px;
@@ -262,7 +264,7 @@ p {
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
-.page .right-bar .question-answer {
+.page .right-bar .content .question-answer {
   text-decoration: none;
   padding: 0px 10px;
   background: #19202a;
@@ -276,15 +278,15 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.page .right-bar .question-answer .container-question-answer {
-  padding: 25px 0px 10px 20px;
+.page .right-bar .content .question-answer .container-question-answer {
+  padding: 25px 0px 16px 20px;
 }
-.page .right-bar .question-answer .container-question-answer .glasses {
+.page .right-bar .content .question-answer .container-question-answer .glasses {
   padding: 20px 20px 20px 20px;
   color: #006cf8;
   font-size: 40px;
 }
-.page .right-bar .question-answer .container-question-answer .text-answer {
+.page .right-bar .content .question-answer .container-question-answer .text-answer {
   color: #fff;
   padding-top: 60px;
   font-size: 15px;
@@ -292,7 +294,7 @@ p {
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
-.page .right-bar .contacts {
+.page .right-bar .content .contacts {
   text-decoration: none;
   padding: 0px 10px;
   background: #19202a;
@@ -306,15 +308,15 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.page .right-bar .contacts .container-contacts {
-  padding: 25px 0px 10px 20px;
+.page .right-bar .content .contacts .container-contacts {
+  padding: 25px 0px 16px 20px;
 }
-.page .right-bar .contacts .container-contacts .pin {
+.page .right-bar .content .contacts .container-contacts .pin {
   color: #006cf8;
   font-size: 40px;
   padding: 20px 20px 20px 20px;
 }
-.page .right-bar .contacts .container-contacts .text-contacts {
+.page .right-bar .content .contacts .container-contacts .text-contacts {
   color: #fff;
   padding-top: 60px;
   font-size: 15px;
