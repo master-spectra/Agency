@@ -49,6 +49,7 @@ p {
 }
 .page .project-company .visualizer {
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .page .project-company .visualizer .three-d-visualizer {
   display: flex;
@@ -90,6 +91,9 @@ p {
 .page .project-company .visualizer .three-d-visualizer .desciption .all-button {
   background: #2ecc71;
 }
+.page .project-company .web-development-courses {
+  overflow: hidden;
+}
 .page .project-company .web-development-courses .content {
   display: flex;
   padding-bottom: 50px;
@@ -121,6 +125,9 @@ p {
 }
 .page .project-company .web-development-courses .content .img-web-development-courses:hover {
   filter: brightness(100%);
+}
+.page .project-company .ui-library {
+  overflow: hidden;
 }
 .page .project-company .ui-library .content {
   display: flex;

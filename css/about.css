@@ -25,7 +25,7 @@ p {
 }
 .wrapper {
   margin: 0 auto;
-  width: 1200px;
+  width: 1200px !impotent;
 }
 .page {
   background-color: #19202a;
@@ -178,10 +178,11 @@ p {
 .page .directions .cards {
   display: flex;
   padding-top: 50px;
+  overflow: hidden;
 }
 .page .directions .cards .card {
   text-align: center;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 .page .directions .cards .card .icon {
   color: #0d749c;
@@ -203,6 +204,7 @@ p {
 }
 .page .strategy {
   background-color: #1d2733;
+  overflow: hidden;
 }
 .page .strategy .content-strategy {
   display: flex;
@@ -220,7 +222,7 @@ p {
   z-index: 5;
   top: 0px;
   left: 0px;
-  right: 430px;
+  right: 320px;
   bottom: 50px;
   position: absolute;
   transform: rotate(270deg);
@@ -247,11 +249,12 @@ p {
 }
 .page .strategy .content-strategy img {
   height: 100%;
-  width: 45%;
+  width: 50%;
 }
 .page .ux-design {
   display: flex;
   background-color: #1d2733;
+  overflow: hidden;
 }
 .page .ux-design .content-ux-design {
   display: flex;
@@ -295,6 +298,7 @@ p {
 .page .technologies {
   padding-bottom: 100px;
   background-color: #1d2733;
+  overflow: hidden;
 }
 .page .technologies .content-technologies {
   display: flex;
@@ -305,7 +309,7 @@ p {
   text-transform: uppercase;
   font-size: 50px;
   z-index: 5;
-  top: 110px;
+  top: 180px;
   left: -250px;
   position: absolute;
   transform: rotate(270deg);
@@ -388,6 +392,7 @@ p {
 }
 .page .project-about {
   padding-bottom: 100px;
+  overflow: hidden;
 }
 .page .project-about .title-project-about {
   text-align: center;
@@ -501,6 +506,7 @@ p {
 }
 .page .presention-us-project {
   padding: 50px 0px;
+  overflow: hidden;
 }
 .page .presention-us-project .header-presention-us-project {
   text-align: center;

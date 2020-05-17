@@ -28,6 +28,7 @@ p {
 }
 .page .question-answer {
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .page .question-answer .title-question-answer {
   text-align: center;
@@ -48,6 +49,9 @@ p {
   font-size: 16px;
   padding-left: 400px;
   font-weight: bold;
+}
+.page .question-answer .your-questaion {
+  overflow: hidden;
 }
 .page .question-answer .your-questaion .btn-question {
   background-color: #19202a;

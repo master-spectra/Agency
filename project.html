@@ -3,9 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/project.css">
         <link rel="stylesheet" href="css/header-footer.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <link rel="stylesheet" href="css/project.css">
         <title>Project</title>
     </head>
     <body>
@@ -51,7 +52,7 @@
             </div>
             <div class="project-company">
                 <div class="wrapper">
-                    <div class="title-company">
+                    <div class="title-company" data-aos="fade-down">
                         <div class="title">
                             <span class="blue-text">project</span>
                             <span class="text">company</span>
@@ -60,8 +61,8 @@
                     </div>
                     <div class="visualizer">
                         <div class="three-d-visualizer">
-                            <img src="img/visualizer-banner.png" alt="">
-                            <div class="desciption">
+                            <img src="img/visualizer-banner.png" alt="" data-aos="fade-right">
+                            <div class="desciption"  data-aos="fade-left">
                                 <div class="title-3d-visualizer">
                                     <span class="green-title">3D</span>
                                     <span class="title">visualizer</span>
@@ -84,7 +85,7 @@
                 <div class="web-development-courses">
                     <div class="wrapper">
                         <div class="content">
-                            <div class="description-web-development-courses">
+                            <div class="description-web-development-courses" data-aos="fade-right">
                                 <div class="title-description-web-development-courses">
                                     <span class="title-web-development-courses">Web Development</span>
                                     <span class="title-part-two-web-development-courses">Courses</span>
@@ -97,7 +98,7 @@
                                 </p>
                                 <button class="btn-web-development-courses all-button">Learn more</button>
                             </div>
-                            <img class="img-web-development-courses" src="img/wdc.png" alt="">
+                            <img class="img-web-development-courses" src="img/wdc.png" alt=""  data-aos="fade-left">
                         </div>
                     </div>
                     
@@ -105,8 +106,8 @@
                 <div class="ui-library">
                     <div class="wrapper">
                         <div class="content">
-                            <img class="img-library" src="img/ui-lib.png" alt="">
-                            <div class="describtion-ui-library">
+                            <img class="img-library" src="img/ui-lib.png" alt=""  data-aos="fade-right">
+                            <div class="describtion-ui-library"  data-aos="fade-left">
                                 <span class="blue-title-ui-library">ui</span>
                                 <span class="title-ui-library">Library</span>
                                 <p class="text-ui-library">
@@ -218,5 +219,8 @@
                 </div>
             </div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/aos.js"></script>        
     </body>
 </html>

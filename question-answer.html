@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link rel="stylesheet" href="css/question-answer.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/question-answer.css">
     <title>Question-answer</title>
 </head>
 
@@ -53,12 +54,12 @@
         </div>
         <div class="question-answer">
             <div class="wrapper">
-                <div class="title-question-answer">
+                <div class="title-question-answer" data-aos="fade-down">
                     <span class="main-title">Question &</span>
                     <span class="second-title">Answer</span>
                     <p class="text-title-question-answer">Many answers will help you make the right choice.</p>
                 </div>
-                <div class="your-questaion">
+                <div class="your-questaion" data-aos="fade-right">
                     <button class="btn-question template">How is the unique solution different from the
                         template?</button>
                     <button class="btn-question project">What does the project cost consist of?</button>
@@ -69,7 +70,7 @@
                     <button class="btn-question idea">I am afraid to tell an idea or disclose company private
                         information.</button>
                 </div>
-                <div class="answer">
+                <div class="answer" data-aos="fade-left">
                     <div class="template">
                         <h2 class="title-template">How is the unique solution different from the template?</h2>
                         <p class="text-template">
@@ -181,6 +182,9 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
 </body>
 
 </html>

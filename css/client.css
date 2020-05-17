@@ -28,6 +28,7 @@ p {
 }
 .page .client {
   padding: 50px 0px 0px 0px;
+  overflow: hidden;
 }
 .page .client .title-client {
   text-align: center;
@@ -45,6 +46,7 @@ p {
 }
 .page .client .small-academy-scenice {
   padding-bottom: 80px;
+  overflow: hidden;
 }
 .page .client .small-academy-scenice .content {
   display: flex;
@@ -74,6 +76,7 @@ p {
 }
 .page .client .ONPU {
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .page .client .ONPU .content {
   display: flex;
