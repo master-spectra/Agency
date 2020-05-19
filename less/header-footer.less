@@ -64,6 +64,7 @@
         color: #fff;
         float: left;
         width: 130px;
+        text-transform: uppercase;
         text-decoration: none;
         font-size: 20px;
     }
@@ -85,7 +86,7 @@
                     letter-spacing: .7px;
                     text-transform: uppercase;
                     padding-right: 20px;
-
+                    transition: all 0.3s ease;
 
                     &:hover {
                         color: #32b4ff;
@@ -133,7 +134,9 @@
 }
 
 .footer {
-
+    position: relative;
+    z-index: 500;
+    
     .top-footer {
         display: flex;
         flex-wrap: wrap;

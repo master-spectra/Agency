@@ -1,3 +1,5 @@
+AOS.init();
+
 $('.page .service-section .content').slick({
   dots:true,
   arrows:false,
@@ -23,4 +25,4 @@ $('.page .works-list .wrapper .content').slick({
     infinite:true,
     autoplay: true,
     autoplaySpeed: 2000
-})
+});

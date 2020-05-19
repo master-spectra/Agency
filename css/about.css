@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Tahoma;
+  font-family: Roboto, Tahoma, sans-serif;
 }
 h1,
 h2,
@@ -25,7 +25,7 @@ p {
 }
 .wrapper {
   margin: 0 auto;
-  width: 1200px !impotent;
+  width: 1200px;
 }
 .page {
   background-color: #19202a;
@@ -157,16 +157,14 @@ p {
   padding-left: 20px;
 }
 .page .directions {
-  padding-bottom: 50px;
+  padding: 50px 0px;
 }
 .page .directions .title-directions {
   text-align: center;
-  padding-top: 50px;
 }
 .page .directions .title-directions .first-title-directions {
   color: #01b1f8;
   font-size: 40px;
-  padding-top: 80px;
   text-align: center;
 }
 .page .directions .title-directions .second-title-directions {
@@ -200,92 +198,95 @@ p {
 }
 .page .directions .btn-directions {
   text-align: center;
-  padding: 50px 0px;
+  padding-top: 50px;
 }
-.page .strategy {
-  background-color: #1d2733;
+.page .about-section {
   overflow: hidden;
+  background: #1d2733;
 }
-.page .strategy .content-strategy {
+.page .about-section .strategy {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
-.page .strategy .content-strategy .description-strategy {
+.page .about-section .strategy .content-strategy {
+  display: flex;
+  justify-content: space-between;
   padding-top: 100px;
+}
+.page .about-section .strategy .content-strategy .description-strategy {
   position: relative;
   padding-left: 20px;
+  align-self: center;
 }
-.page .strategy .content-strategy .description-strategy .vertical-title-strategy {
+.page .about-section .strategy .content-strategy .description-strategy .vertical-title-strategy {
   color: #828fa2;
   text-transform: uppercase;
   font-size: 50px;
   z-index: 5;
-  top: 0px;
-  left: 0px;
-  right: 320px;
-  bottom: 50px;
+  right: 520px;
+  top: 30px;
   position: absolute;
   transform: rotate(270deg);
 }
-.page .strategy .content-strategy .description-strategy .title-strategy {
+.page .about-section .strategy .content-strategy .description-strategy .overlay .title-strategy {
   width: 100%;
   padding-bottom: 20px;
 }
-.page .strategy .content-strategy .description-strategy .title-strategy .first-title-strategy {
+.page .about-section .strategy .content-strategy .description-strategy .overlay .title-strategy .first-title-strategy {
   font-size: 30px;
   color: #24c271;
   padding-bottom: 20px;
 }
-.page .strategy .content-strategy .description-strategy .title-strategy .second-title-strategy {
+.page .about-section .strategy .content-strategy .description-strategy .overlay .title-strategy .second-title-strategy {
   font-size: 30px;
   color: #fff;
   padding-bottom: 20px;
 }
-.page .strategy .content-strategy .description-strategy .text-strategy {
+.page .about-section .strategy .content-strategy .description-strategy .overlay .text-strategy {
   line-height: 170%;
   font-size: 16px;
-  justify-items: center;
+  align-self: flex-end;
   color: #828fa2;
 }
-.page .strategy .content-strategy img {
+.page .about-section .strategy .content-strategy img {
   height: 100%;
   width: 50%;
 }
-.page .ux-design {
+.page .about-section .ux-design {
   display: flex;
-  background-color: #1d2733;
   overflow: hidden;
 }
-.page .ux-design .content-ux-design {
+.page .about-section .ux-design .content-ux-design {
   display: flex;
 }
-.page .ux-design .content-ux-design .img-ux-design {
+.page .about-section .ux-design .content-ux-design .img-ux-design {
   width: 50%;
 }
-.page .ux-design .content-ux-design .description-ux-design {
+.page .about-section .ux-design .content-ux-design .description-ux-design {
   padding-top: 100px;
   padding-left: 20px;
   position: relative;
 }
-.page .ux-design .content-ux-design .description-ux-design .title-ux-design {
+.page .about-section .ux-design .content-ux-design .description-ux-design .title-ux-design {
   width: 35%;
   padding-bottom: 20px;
 }
-.page .ux-design .content-ux-design .description-ux-design .title-ux-design .first-part-title {
+.page .about-section .ux-design .content-ux-design .description-ux-design .title-ux-design .first-part-title {
   color: #fff;
   font-size: 30px;
 }
-.page .ux-design .content-ux-design .description-ux-design .title-ux-design .second-part-title {
+.page .about-section .ux-design .content-ux-design .description-ux-design .title-ux-design .second-part-title {
   color: #01b1f8;
   font-size: 30px;
   padding-bottom: 20px;
 }
-.page .ux-design .content-ux-design .description-ux-design .text-ux-design {
+.page .about-section .ux-design .content-ux-design .description-ux-design .text-ux-design {
   line-height: 170%;
   font-size: 16px;
   color: #828fa2;
 }
-.page .ux-design .content-ux-design .vertical-title-design {
+.page .about-section .ux-design .content-ux-design .vertical-title-design {
   color: #828fa2;
   text-transform: uppercase;
   font-size: 50px;
@@ -295,48 +296,46 @@ p {
   position: absolute;
   transform: translate(55%) rotate(90deg);
 }
-.page .technologies {
-  padding-bottom: 100px;
-  background-color: #1d2733;
+.page .about-section .technologies {
   overflow: hidden;
+  padding-bottom: 250px;
 }
-.page .technologies .content-technologies {
+.page .about-section .technologies .content-technologies {
   display: flex;
   position: relative;
 }
-.page .technologies .content-technologies .vertica-text {
+.page .about-section .technologies .content-technologies .vertica-text {
   color: #828fa2;
   text-transform: uppercase;
   font-size: 50px;
   z-index: 5;
-  top: 180px;
+  top: 170px;
   left: -250px;
   position: absolute;
   transform: rotate(270deg);
 }
-.page .technologies .content-technologies .description-technologies {
-  padding: 50px 0px;
+.page .about-section .technologies .content-technologies .description-technologies {
+  padding-top: 50px;
   padding-left: 20px;
 }
-.page .technologies .content-technologies .description-technologies .title-description-technologies {
+.page .about-section .technologies .content-technologies .description-technologies .title-description-technologies {
   padding-bottom: 20px;
 }
-.page .technologies .content-technologies .description-technologies .title-description-technologies .first-title-description {
+.page .about-section .technologies .content-technologies .description-technologies .title-description-technologies .first-title-description {
   font-size: 30px;
   color: #fff;
 }
-.page .technologies .content-technologies .description-technologies .title-description-technologies .second-title-description {
+.page .about-section .technologies .content-technologies .description-technologies .title-description-technologies .second-title-description {
   color: #f5b327;
   font-size: 30px;
 }
-.page .technologies .content-technologies .description-technologies .text-description-technologies {
+.page .about-section .technologies .content-technologies .description-technologies .text-description-technologies {
   line-height: 170%;
   font-size: 16px;
   padding-right: 100px;
   color: #828fa2;
-  padding-bottom: 120px;
 }
-.page .technologies .content-technologies .img-technologies {
+.page .about-section .technologies .content-technologies .img-technologies {
   width: 40%;
   height: 100%;
 }
@@ -369,6 +368,7 @@ p {
 .page .service-section .content .first-description .title-first-description {
   font-size: 25px;
   color: #828fa2;
+  padding-bottom: 20px;
 }
 .page .service-section .content .first-description .title-second-description .default-color {
   font-size: 30px;
@@ -416,6 +416,7 @@ p {
 .page .project-about .content .card .img-card {
   height: 200px;
   width: 100%;
+  border-radius: 5px;
 }
 .page .project-about .content .card .description-card {
   text-align: center;

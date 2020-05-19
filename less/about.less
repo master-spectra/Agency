@@ -3,7 +3,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Tahoma;
+    font-family: Roboto, Tahoma, sans-serif;
 }
 
 h1,
@@ -28,7 +28,7 @@ p {
 
 .wrapper {
     margin: 0 auto;
-    width: 1200px !impotent;
+    width: 1200px;
 }
 
 .page {
@@ -186,16 +186,14 @@ p {
     }
 
     .directions {
-        padding-bottom: 50px;
+        padding: 50px 0px;
 
         .title-directions {
             text-align: center;
-            padding-top: 50px;
 
             .first-title-directions {
                 color: #01b1f8;
                 font-size: 40px;
-                padding-top: 80px;
                 text-align: center;
             }
 
@@ -238,173 +236,178 @@ p {
 
         .btn-directions {
             text-align: center;
-            padding: 50px 0px;
+            padding-top: 50px;
         }
 
     }
-
-    .strategy {
-        background-color: #1d2733;
+    
+    .about-section {
         overflow: hidden;
+        background: #1d2733;
 
-        .content-strategy {
+        .strategy {
             display: flex;
             justify-content: space-between;
+            flex-direction: column;
 
-            .description-strategy {
+            .content-strategy {
+                display: flex;
+                justify-content: space-between;
                 padding-top: 100px;
-                position: relative;
-                padding-left: 20px;
 
-                .vertical-title-strategy {
+                .description-strategy {
+                    position: relative;
+                    padding-left: 20px;
+                    align-self: center;
+
+                    .vertical-title-strategy {
+                        color: #828fa2;
+                        text-transform: uppercase;
+                        font-size: 50px;
+                        z-index: 5;
+                        right: 520px;
+                        top: 30px;                                
+                        position: absolute;
+                        transform: rotate(270deg);
+                    }
+                    
+                    .overlay {
+                        
+                        .title-strategy {
+                            width: 100%;
+                            padding-bottom: 20px;
+
+                            .first-title-strategy {
+                                font-size: 30px;
+                                color: #24c271;
+                                padding-bottom: 20px;
+                            }
+
+                            .second-title-strategy {
+                                font-size: 30px;
+                                color: #fff;
+                                padding-bottom: 20px;
+                            }
+                        }
+
+                        .text-strategy {
+                            line-height: 170%;
+                            font-size: 16px;
+                            align-self: flex-end;
+                            color: #828fa2;
+                        }
+                    }
+                }
+                
+                img {
+                    height: 100%;
+                    width: 50%;
+                }
+            }
+        }
+
+        .ux-design {
+            display: flex;
+            overflow: hidden;
+
+            .content-ux-design {
+                display: flex;
+
+                .img-ux-design {
+                    width: 50%;
+                }
+
+                .description-ux-design {
+                    padding-top: 100px;
+                    padding-left: 20px;
+                    position: relative;
+
+                    .title-ux-design {
+                        width: 35%;
+                        padding-bottom: 20px;
+
+                        .first-part-title {
+                            color: #fff;
+                            font-size: 30px;
+
+                        }
+
+                        .second-part-title {
+                            color: #01b1f8;
+                            font-size: 30px;
+                            padding-bottom: 20px;
+                        }
+                    }
+
+                    .text-ux-design {
+                        line-height: 170%;
+                        font-size: 16px;
+                        color: #828fa2;
+                    }
+                }
+
+                .vertical-title-design {
                     color: #828fa2;
                     text-transform: uppercase;
                     font-size: 50px;
                     z-index: 5;
-                    top: 0px;
-                    left: 0px;
-                    right: 320px;
-                    bottom: 50px;
+                    bottom: 250px;
+                    right: -35px;
+                    position: absolute;
+                    transform: translate(55%) rotate(90deg);
+                }
+            }
+        }
+
+        .technologies {
+            overflow: hidden;
+            padding-bottom: 250px;
+
+            .content-technologies {
+                display: flex;
+                position: relative;
+
+                .vertica-text {
+                    color: #828fa2;
+                    text-transform: uppercase;
+                    font-size: 50px;
+                    z-index: 5;
+                    top: 170px;
+                    left: -250px;
                     position: absolute;
                     transform: rotate(270deg);
                 }
 
-                .title-strategy {
-                    width: 100%;
-                    padding-bottom: 20px;
+                .description-technologies {
+                    padding-top: 50px;
+                    padding-left: 20px;
 
-                    .first-title-strategy {
-                        font-size: 30px;
-                        color: #24c271;
+                    .title-description-technologies {
                         padding-bottom: 20px;
+
+                        .first-title-description {
+                            font-size: 30px;
+                            color: #fff;
+                        }
+
+                        .second-title-description {
+                            color: #f5b327;
+                            font-size: 30px;
+                        }
                     }
 
-                    .second-title-strategy {
-                        font-size: 30px;
-                        color: #fff;
-                        padding-bottom: 20px;
-                    }
-                }
-
-                .text-strategy {
-                    line-height: 170%;
-                    font-size: 16px;
-                    justify-items: center;
-                    color: #828fa2;
-                }
-            }
-            
-            img {
-                height: 100%;
-                width: 50%;
-            }
-        }
-    }
-
-    .ux-design {
-        display: flex;
-        background-color: #1d2733;
-        overflow: hidden;
-
-        .content-ux-design {
-            display: flex;
-
-            .img-ux-design {
-                width: 50%;
-            }
-
-            .description-ux-design {
-                padding-top: 100px;
-                padding-left: 20px;
-                position: relative;
-
-                .title-ux-design {
-                    width: 35%;
-                    padding-bottom: 20px;
-
-                    .first-part-title {
-                        color: #fff;
-                        font-size: 30px;
-
-                    }
-
-                    .second-part-title {
-                        color: #01b1f8;
-                        font-size: 30px;
-                        padding-bottom: 20px;
+                    .text-description-technologies {
+                        line-height: 170%;
+                        font-size: 16px;
+                        padding-right: 100px;
+                        color: #828fa2;
                     }
                 }
 
-                .text-ux-design {
-                    line-height: 170%;
-                    font-size: 16px;
-                    color: #828fa2;
+                .img-technologies {
+                    width: 40%;
+                    height: 100%;
                 }
-            }
-
-            .vertical-title-design {
-                color: #828fa2;
-                text-transform: uppercase;
-                font-size: 50px;
-                z-index: 5;
-                bottom: 250px;
-                right: -35px;
-                position: absolute;
-                transform: translate(55%) rotate(90deg);
-            }
-        }
-    }
-
-    .technologies {
-        padding-bottom: 100px;
-        background-color: #1d2733;
-        overflow: hidden;
-
-        .content-technologies {
-            display: flex;
-            position: relative;
-
-            .vertica-text {
-                color: #828fa2;
-                text-transform: uppercase;
-                font-size: 50px;
-                z-index: 5;
-                top: 180px;
-                left: -250px;
-                position: absolute;
-                transform: rotate(270deg);
-            }
-
-            .description-technologies {
-                padding: 50px 0px;
-                padding-left: 20px;
-
-                .title-description-technologies {
-                    padding-bottom: 20px;
-
-                    .first-title-description {
-                        font-size: 30px;
-                        color: #fff;
-                    }
-
-                    .second-title-description {
-                        color: #f5b327;
-                        font-size: 30px;
-                    }
-                }
-
-                .text-description-technologies {
-                    line-height: 170%;
-                    font-size: 16px;
-                    padding-right: 100px;
-                    color: #828fa2;
-                    padding-bottom: 120px;
-                }
-            }
-
-            .img-technologies {
-                width: 40%;
-                height: 100%;
             }
         }
     }
@@ -441,6 +444,7 @@ p {
                 .title-first-description {
                     font-size: 25px;
                     color: #828fa2;
+                    padding-bottom: 20px;
                 }
 
                 .title-second-description {
@@ -504,6 +508,7 @@ p {
                 .img-card {
                     height: 200px;
                     width: 100%;
+                    border-radius: 5px;
                 }
 
                 .description-card {

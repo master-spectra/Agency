@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Tahoma;
+  font-family: Roboto, Tahoma, sans-serif;
 }
 h1,
 h2,
@@ -70,6 +70,7 @@ p {
 }
 .page .left-bar .conteiner .title .first-title {
   font-size: 15px;
+  text-transform: uppercase;
   color: #92a1b6;
 }
 .page .left-bar .conteiner .title .second {
@@ -77,6 +78,7 @@ p {
   padding-top: 10px;
   color: #fff;
   width: 150px;
+  text-transform: uppercase;
 }
 .page .left-bar .conteiner .second-title {
   padding-top: 130px;
