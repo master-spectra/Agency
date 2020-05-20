@@ -29,7 +29,6 @@ p {
   outline: none;
   border: 0;
   cursor: pointer;
-  margin: 5px;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -43,7 +42,7 @@ p {
 .page {
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 100.5vh;
 }
 .page .left-bar {
   position: relative;
@@ -113,7 +112,7 @@ p {
   color: #ffff00;
 }
 .page .left-bar .conteiner .social-network {
-  padding: 160px 0px 0px 0px;
+  padding: 130px 0px 0px 0px;
   display: flex;
 }
 .page .left-bar .conteiner .social-network .vk-icon {
@@ -148,23 +147,23 @@ p {
 }
 .page .right-bar .content .about {
   text-decoration: none;
-  padding: 0px 10px;
+  padding: 2px 10px;
+  margin: 5px;
   background: #19202a;
   width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
-  margin: 5px;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .page .right-bar .content .about .container-about {
-  padding: 25px 0px 16px 20px;
+  padding: 25px 0px 10px 20px;
 }
 .page .right-bar .content .about .container-about .megaphone {
-  color: #006cf8;
+  color: #23698a;
   font-size: 40px;
   padding: 20px 20px 20px 20px;
 }
@@ -178,23 +177,23 @@ p {
 }
 .page .right-bar .content .list-client {
   text-decoration: none;
-  padding: 0px 10px;
+  padding: 2px 10px;
+  margin: 5px;
   background: #19202a;
   width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
-  margin: 5px;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .page .right-bar .content .list-client .container-list-client {
-  padding: 25px 0px 16px 20px;
+  padding: 25px 0px 10px 20px;
 }
 .page .right-bar .content .list-client .container-list-client .case {
-  color: #006cf8;
+  color: #23698a;
   font-size: 40px;
   padding: 20px 20px 20px 20px;
 }
@@ -208,24 +207,24 @@ p {
 }
 .page .right-bar .content .portfolio {
   text-decoration: none;
-  padding: 0px 10px;
+  padding: 2px 10px;
+  margin: 5px;
   background: #19202a;
   width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
-  margin: 5px;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .page .right-bar .content .portfolio .container-portfoliot {
-  padding: 25px 0px 16px 20px;
+  padding: 25px 0px 10px 20px;
 }
 .page .right-bar .content .portfolio .container-portfoliot .tv {
   padding: 20px 20px 20px 20px;
-  color: #006cf8;
+  color: #23698a;
   font-size: 40px;
 }
 .page .right-bar .content .portfolio .container-portfoliot .text-portfolio {
@@ -238,23 +237,23 @@ p {
 }
 .page .right-bar .content .project {
   text-decoration: none;
-  padding: 0px 10px;
+  padding: 2px 10px;
+  margin: 5px;
   background: #19202a;
   width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
-  margin: 5px;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .page .right-bar .content .project .container-project {
-  padding: 25px 0px 16px 20px;
+  padding: 25px 0px 10px 20px;
 }
 .page .right-bar .content .project .container-project .camera {
-  color: #006cf8;
+  color: #23698a;
   font-size: 40px;
   padding: 20px 20px 20px 20px;
 }
@@ -268,24 +267,24 @@ p {
 }
 .page .right-bar .content .question-answer {
   text-decoration: none;
-  padding: 0px 10px;
+  padding: 2px 10px;
+  margin: 5px;
   background: #19202a;
   width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
-  margin: 5px;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .page .right-bar .content .question-answer .container-question-answer {
-  padding: 25px 0px 16px 20px;
+  padding: 25px 0px 10px 20px;
 }
 .page .right-bar .content .question-answer .container-question-answer .glasses {
   padding: 20px 20px 20px 20px;
-  color: #006cf8;
+  color: #23698a;
   font-size: 40px;
 }
 .page .right-bar .content .question-answer .container-question-answer .text-answer {
@@ -298,23 +297,23 @@ p {
 }
 .page .right-bar .content .contacts {
   text-decoration: none;
-  padding: 0px 10px;
+  padding: 2px 10px;
+  margin: 5px;
   background: #19202a;
   width: 45%;
   outline: none;
   border: 0;
   cursor: pointer;
-  margin: 5px;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .page .right-bar .content .contacts .container-contacts {
-  padding: 25px 0px 16px 20px;
+  padding: 25px 0px 10px 20px;
 }
 .page .right-bar .content .contacts .container-contacts .pin {
-  color: #006cf8;
+  color: #23698a;
   font-size: 40px;
   padding: 20px 20px 20px 20px;
 }
