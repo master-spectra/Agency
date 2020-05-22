@@ -144,11 +144,20 @@ p {
   z-index: 1;
   height: 60vh;
 }
-.page .header .down-header .title-down-header {
-  font-size: 30px;
-  color: #fff;
+.page .header .down-header .text #typed-strings .title-down-header {
+  opacity: 0;
+}
+.page .header .down-header .text #typed {
+  font-size: 34px;
   line-height: 170%;
-  padding-bottom: 20px;
+  font-family: Rubik;
+  font-weight: 300;
+  color: #fff;
+}
+.page .header .down-header .text .typed-cursor {
+  margin-left: 1px;
+  color: #2ec2fe;
+  font-size: 34px;
 }
 .page .header .down-header .btn-down-header {
   padding-top: 20px;

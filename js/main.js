@@ -26,3 +26,8 @@ $('.page .works-list .wrapper .content').slick({
     autoplay: true,
     autoplaySpeed: 2000
 });
+
+var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 30
+});
