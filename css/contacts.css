@@ -160,6 +160,10 @@ p {
   flex-wrap: wrap;
   padding: 0px 0px 20px 20px;
 }
+.page .content .form-send-message .tab-container .tab-list .icon {
+  padding: 4px 10px 0px 0px;
+  color: #fff;
+}
 .page .content .form-send-message .tab-container .tab-list .tab {
   color: #fff;
   padding-right: 20px;
