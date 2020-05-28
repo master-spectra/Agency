@@ -28,10 +28,10 @@
   outline: none;
   border: 0;
   font-size: 0;
-  padding: 1px 10px;
+  padding: 2px 15px;
   cursor: pointer;
   background-color: #838e9e;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 .works-list .slick-dots .slick-active button {
   background-color: #fff;

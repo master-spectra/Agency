@@ -23,6 +23,23 @@ p {
   text-decoration: none;
   font-weight: normal;
 }
+.special-btn {
+  background: #19202a;
+  outline: none;
+  border: 0;
+  margin: 0px 20px 20px 0px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 15px 35px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.special-btn:hover {
+  background-color: #0375a1;
+}
+.special-btn:active {
+  transform: scale(0.95);
+}
 .page {
   background: #1d2733;
 }
@@ -50,38 +67,53 @@ p {
   padding-left: 400px;
   font-weight: bold;
 }
-.page .question-answer .your-questaion {
-  overflow: hidden;
+.page .question-answer .tab-container .tab-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.page .question-answer .your-questaion .btn-question {
-  background-color: #19202a;
+.page .question-answer .tab-container .tab-list .tab {
+  background: #19202a;
   outline: none;
   border: 0;
+  margin: 0px 20px 20px 0px;
+  text-decoration: none;
   border-radius: 5px;
-  box-sizing: border-box;
-  margin: 20px 5px 5px 5px;
+  padding: 15px 35px;
   color: #fff;
-  font-size: 16px;
-  padding: 10px 5px;
   transition: all 0.3s ease;
 }
-.page .question-answer .your-questaion .btn-question:hover {
+.page .question-answer .tab-container .tab-list .tab:hover {
   background-color: #0375a1;
 }
-.page .question-answer .your-questaion .btn-question:active {
+.page .question-answer .tab-container .tab-list .tab:active {
   transform: scale(0.95);
 }
-.page .question-answer .answer .template .title-template {
-  color: #fff;
-  padding: 30px 0px;
-  font-size: 30px;
-  font-weight: bold;
+.page .question-answer .tab-container .content-wrap {
+  margin-top: 50px;
+  position: relative;
 }
-.page .question-answer .answer .template .text-template {
-  color: #67768d;
-  font-size: 14px;
-  width: 90%;
+.page .question-answer .tab-container .content-wrap .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.page .question-answer .tab-container .content-wrap .content.active {
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+}
+.page .question-answer .tab-container .content-wrap .content .title-content-tab {
+  color: #fff;
+  font-size: 30px;
+}
+.page .question-answer .tab-container .content-wrap .content p {
   line-height: 170%;
+  color: #9aaaba;
+  font-size: 15px;
 }
 .page .view-portfolio {
   background-image: url(../img/project-work-bg.jpg);

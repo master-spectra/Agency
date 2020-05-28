@@ -154,79 +154,43 @@ p {
   margin-left: 200px;
   width: 70%;
 }
-.page .content .form-send-message .title .first-select {
+.page .content .form-send-message .tab-container .tab-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px 0px 20px 20px;
+}
+.page .content .form-send-message .tab-container .tab-list .tab {
   color: #fff;
-  background-color: transparent;
-  border: 0;
-  outline: none;
-  padding: 10px 30px;
-  transition: all 0.3s ease;
+  padding-right: 20px;
 }
-.page .content .form-send-message .title .first-select:active {
-  transform: scale(0.95);
+.page .content .form-send-message .content-wrap {
+  position: relative;
 }
-.page .content .form-send-message .title .first-select span {
-  color: #fff;
-  padding-left: 5px;
-  font-family: Tahoma;
-}
-.page .content .form-send-message .title .second-select {
-  color: #fff;
-  background-color: transparent;
-  border: 0;
-  outline: none;
-  padding: 10px 30px;
-  transition: all 0.3s ease;
-}
-.page .content .form-send-message .title .second-select:active {
-  transform: scale(0.95);
-}
-.page .content .form-send-message .title .second-select span {
-  color: #fff;
-  font-size: 14px;
-  padding-left: 5px;
-  font-family: Tahoma;
-}
-.page .content .form-send-message .title .three-select {
-  color: #fff;
-  background-color: transparent;
-  border: 0;
-  outline: none;
-  padding: 10px 30px;
-  transition: all 0.3s ease;
-}
-.page .content .form-send-message .title .three-select:active {
-  transform: scale(0.95);
-}
-.page .content .form-send-message .title .three-select span {
-  color: #fff;
-  padding-left: 5px;
-  font-family: Tahoma;
-}
-.page .content .form-send-message form {
+.page .content .form-send-message .content-wrap #t1 form {
   background-color: #19202a;
   padding: 50px;
 }
-.page .content .form-send-message form .input-form {
+.page .content .form-send-message .content-wrap #t1 form .input-form {
   display: flex;
   padding: 0px 0px 0px 0px;
 }
-.page .content .form-send-message form .input-form span {
+.page .content .form-send-message .content-wrap #t1 form .input-form span {
   color: #fff;
   display: block;
   width: 100%;
 }
-.page .content .form-send-message form .input-form span input {
+.page .content .form-send-message .content-wrap #t1 form .input-form span input {
   padding-left: 10px;
   color: #fff;
   background-color: #19202a;
   outline: none;
   border: 0;
 }
-.page .content .form-send-message form .input-form span:first-child {
+.page .content .form-send-message .content-wrap #t1 form .input-form span:first-child {
   display: block;
 }
-.page .content .form-send-message form .input-form span:first-child:after {
+.page .content .form-send-message .content-wrap #t1 form .input-form span:first-child:after {
   content: "";
   display: block;
   width: 70%;
@@ -235,10 +199,10 @@ p {
   text-align: center;
   background-color: #474b50;
 }
-.page .content .form-send-message form .input-form span:last-child {
+.page .content .form-send-message .content-wrap #t1 form .input-form span:last-child {
   display: block;
 }
-.page .content .form-send-message form .input-form span:last-child:after {
+.page .content .form-send-message .content-wrap #t1 form .input-form span:last-child:after {
   content: "";
   display: block;
   width: 70%;
@@ -247,7 +211,7 @@ p {
   text-align: center;
   background-color: #474b50;
 }
-.page .content .form-send-message form textarea {
+.page .content .form-send-message .content-wrap #t1 textarea {
   background-color: #19202a;
   border: 1px solid #323841;
   outline: none;
@@ -255,9 +219,65 @@ p {
   padding: 20px;
   margin-top: 50px;
 }
-.page .content .form-send-message form .btn {
+.page .content .form-send-message .content-wrap #t1 .btn {
   text-align: end;
   margin-top: 50px;
+}
+.page .content .form-send-message .content-wrap #t2 {
+  background-color: #19202a;
+  padding: 20px;
+}
+.page .content .form-send-message .content-wrap #t3 {
+  background-color: #19202a;
+  padding: 20px;
+}
+.page .content .form-send-message .content-wrap #t3 form {
+  display: flex;
+  padding-top: 30px;
+}
+.page .content .form-send-message .content-wrap #t3 form span {
+  color: #fff;
+  margin-top: 10px;
+}
+.page .content .form-send-message .content-wrap #t3 form input {
+  margin-bottom: 35px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px 10px 35px;
+  border: none;
+  border-bottom: 1px solid #384150;
+  background: transparent;
+  outline: none;
+  resize: vertical;
+  color: #ddd;
+  transition: border 0.2s ease-out;
+  font-size: 13px;
+}
+.page .content .form-send-message .content-wrap #t3 .btn-overlay {
+  text-align: end;
+}
+.page .content .form-send-message .content-wrap .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.page .content .form-send-message .content-wrap .content.active {
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+}
+.page .content .form-send-message .content-wrap .content .title-content-tab {
+  color: #fff;
+  font-size: 30px;
+}
+.page .content .form-send-message .content-wrap .content p {
+  line-height: 170%;
+  color: #9aaaba;
+  font-size: 15px;
 }
 .page .footer {
   background-color: #19202a;
