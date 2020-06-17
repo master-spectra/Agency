@@ -118,24 +118,31 @@ p {
 .page .left-bar .conteiner .social-network .vk-icon {
   color: #577ca4;
   text-decoration: none;
-  padding-right: 20px;
+  cursor: pointer;
 }
 .page .left-bar .conteiner .social-network .vk {
   font-size: 14px;
   letter-spacing: 0.5px;
   font-weight: bold;
   color: #577ca4;
+  cursor: pointer;
+  padding-left: 20px;
+  font-family: tahoma;
 }
 .page .left-bar .conteiner .social-network .dribble-icon {
   color: #ea4c89;
   text-decoration: none;
   padding: 0px 20px;
+  cursor: pointer;
 }
 .page .left-bar .conteiner .social-network .db {
   font-size: 14px;
   letter-spacing: 0.5px;
   font-weight: bold;
   color: #577ca4;
+  cursor: pointer;
+  padding-left: 20px;
+  font-family: tahoma;
 }
 .page .right-bar {
   background: #1d2733;
@@ -144,6 +151,7 @@ p {
 .page .right-bar .content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   height: 100vh;
 }
 .page .right-bar .content .about {
